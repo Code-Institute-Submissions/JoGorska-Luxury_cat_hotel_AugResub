@@ -1,3 +1,14 @@
+
+
+/* flex container */
+
+/* 
+Need to check:
+- would grid work better than flexbox? 
+- default declaration for mobile in the version below and media rule for desktop
+- why it doesn't make items 33% in a row after the pictures are loaded, it worked before the pictures were in
+- need to add so they strech and fill the space with a small gap between, control padding and marigin
+*/
 .container {
     display: flex;
     flex-wrap: wrap;
