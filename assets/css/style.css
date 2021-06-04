@@ -8,6 +8,6 @@
 
 @media screen and (min-width: 800px) {
     .item{
-        flex-masis: 100%;
+        flex-basis: 100%;
     }
 }
