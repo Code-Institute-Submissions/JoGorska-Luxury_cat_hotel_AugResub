@@ -3,11 +3,11 @@
     flex-wrap: wrap;
 }
 .item {
-    flex-basis: 33%;
+    flex-basis: 100%;
 }
 
 @media screen and (min-width: 800px) {
     .item{
-        flex-basis: 100%;
+        flex-basis: 33%;
     }
 }
