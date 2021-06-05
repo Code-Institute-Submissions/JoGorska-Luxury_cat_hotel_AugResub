@@ -14,6 +14,7 @@
 <body>
 
     <!--Nav bar-->
+    <!-- Remember to add aria-label to nav bar when it's ready-->
     <nav>
         <a href="#about">About us</a>
         <a href="/rooms.html">Rooms</a>
@@ -35,10 +36,17 @@ Joanna!
         <img src="/assets/images/01 colin-watts-qTaiDrxSsEA-unsplash.jpg" alt="Photo of a castle">
     </picture>
 
-    <!--Arrow pointing down so the screen scrolls down and the header Prices is at the top of the page-->
-    <!--Make it bigger, make it move from big to small - mouse hoover from 5 days coding challenge-->
+    <!--
+    Arrow pointing down
+        
+    = it makes screen scroll down and the header Prices is at the top of the page
+    - Make it bigger, 
+    - make it move from big to small - mouse hoover from 5 days coding challenge
+    - move it to the middle
+    - move it on top of the bottom edge of the image
+    -->
     <div>
-        <a href="#about"><i class="fas fa-angle-double-down"></i></a>
+        <a href="#about"><i aria-hidden="down arrow" class="fas fa-angle-double-down" aria-label="Go to About us page (slides down this page)"></i></a>
     </div>
 
     <article id="about">
@@ -56,8 +64,8 @@ Joanna!
 
         </details>
         <footer>
-            <a href="/rooms.html">View our accomodation</a>
-            <a href="/booking.html">Go to booking site</a>
+            <a href="/rooms.html" aria-label="go to page rooms (opens in same window)">View our accomodation</a>
+            <a href="/booking.html" aria-label="go to page booking (open in same window)">Go to booking site</a>
         </footer>
     </article>
 
