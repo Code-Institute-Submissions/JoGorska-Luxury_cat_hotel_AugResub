@@ -1,5 +1,20 @@
 
 
+/*accessibility
+
+need to add - visible for screen readers only - read more on fontawsome
+
+sr-only class in tables
+*/
+
+sr-only {
+    color: pink;
+}
+
+
+
+
+
 /* flex container */
 
 /* 
