@@ -30,3 +30,6 @@
 ## Media
 
 ## Acknowledgements
+
+accessibility of icons for screen readers users 
+https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/accessibility
