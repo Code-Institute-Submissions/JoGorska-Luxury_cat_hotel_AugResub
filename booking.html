@@ -59,16 +59,16 @@
     <legend>Your Details</legend>
 
     <label for="name">Name</label>
-    <input type="text" name="name" id="name" pattern="[A-Za-z'-]{1,160}" title="This field cannot contain numbers or special characters">
+    <input type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
  
     <label for="Surname">Surname</label>
-    <input type="text" name="surname" id="surname" minlength="2" maxlength="20" required>
+    <input type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
 
     <label for="cat1">Your cat's name</label>
-    <input type="text" name="cat1" id="cat1" minlength="2" maxlength="20" required>
+    <input type="text" name="cat1" id="cat1" minlength="2" maxlength="160" required>
 
     <label for="cat2">Second cat (if applicable)</label>
-    <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="20">
+    <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
 
     <label for=""></label>
     <input type="text" name="" id="">
