@@ -129,19 +129,22 @@
     Form validation checklist
     - is this field required?
     - label for accesibility
+    - title to explain what the field requires
     - label needs id
     - name so data is stored in database under name
     - min max value is it needed
     - numbers / letters - if only this is required
-   --- - special characters in names ' - '
+   --- - special characters in names ' - ' and emails
+   - pattern attribute format ==>> [A-Za-z1-9]+[@]+[A-Za-z1-9]+[.]+[A-Za-z1-9]{2,160}
+   - limit the number of characters?? 
 
 -->
     <!--Address field set-->
 <fieldset>
     <legend>Your address</legend>
 
-<label for="email"></label>
-<input type="email" id="email">
+<label for="email">Email address</label>
+<input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,160}$" title="Please enter a valid email address for example my@personal.uk" required>
 
 </fieldset>
 
