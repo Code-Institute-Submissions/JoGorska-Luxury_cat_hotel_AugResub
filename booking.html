@@ -52,14 +52,14 @@
     - name so data is stored in database under name
     - min max value is it needed
     - numbers / letters - if only this is required
-    - special characters in names ' - '
+   --- - special characters in names ' - '
 
 -->
 <fieldset>
     <legend>Your Details</legend>
 
     <label for="name">Name</label>
-    <input type="text" name="name" id="name" pattern="[A-Za-z]{1,20}">
+    <input type="text" name="name" id="name" pattern="[A-Za-z'-]{1,160}" title="This field cannot contain numbers or special characters">
  
     <label for="Surname">Surname</label>
     <input type="text" name="surname" id="surname" minlength="2" maxlength="20" required>
