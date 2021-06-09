@@ -33,9 +33,11 @@
 
 <fieldset>
     <legend>Choose a date</legend>
-<!--find little calendar icon fontawsome, remember about aria-label for icons-->
-    <input type="date">
-    <input type="date">
+
+    <label for="BookIN">Check in date</label>
+    <input id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance" required>
+    <label for="BookOUT">Check out date</label>
+    <input id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
     <button type="submit">Click here to check availibility</button>
 
 </fieldset>
