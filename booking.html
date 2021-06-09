@@ -71,13 +71,52 @@
     <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
 
     <!--datalist drop down plus text field for breed-->
-    <label for=""></label>
-    <input type="text" name="" id="">
+    <label for="breed">Breed of the cat</label>
+    <input type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+
+    <datalist id="breedlist">
+        <option>None</option>
+        <option>British Shorthair</option>
+        <option>Persian cat</option>
+        <option>Maine Coon</option>
+        <option>Bengal cat</option>
+        <option>Ragdoll</option>
+        <option>Siamese cat</option>
+        <option>Burmese cat</option>
+        <option>Sphynx cat</option>
+        <option>Russian Blue</option>
+        <option>Abyssinian</option>
+        <option>Birman</option>
+        <option>Dachowiec</option>
+
+    </datalist>
 
    
     <input type="checkbox" name="documented breed" id="breeddocumented">
     <label for="breeddocumented">Is the breed documented?</label>
+  
+    <!--datalist drop down plus text field for breed for the second cat-->
+    <label for="breed2">Breed of the second cat</label>
+    <input type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160">
 
+    <datalist id="breedlist2">
+        <option>None</option>
+        <option>British Shorthair</option>
+        <option>Persian cat</option>
+        <option>Maine Coon</option>
+        <option>Bengal cat</option>
+        <option>Ragdoll</option>
+        <option>Siamese cat</option>
+        <option>Burmese cat</option>
+        <option>Sphynx cat</option>
+        <option>Russian Blue</option>
+        <option>Abyssinian</option>
+        <option>Birman</option>
+        <option>Dachowiec</option>
+
+    </datalist>
+    <input type="checkbox" name="documented breed" id="breeddocumented2">
+    <label for="breeddocumented2">Is the breed documented?</label>
 
 </fieldset>
 
