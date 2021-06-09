@@ -29,10 +29,12 @@
 
     <!--Check if you can use codeinstitute form dump-->
 
+
 <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
 
 
 <fieldset>
+<!-- muted to test next fieldest
     <legend>Choose a date</legend>
 
     <label for="BookIN">Check in date</label>
@@ -41,23 +43,19 @@
     <input id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
     <button type="submit">Click here to check availibility</button>
 
+-->
+
 </fieldset>
 
 
-<!--
-    Form validation checklist
-    - is this field required?
-    - label for accesibility
-    - label needs id
-    - name so data is stored in database under name
-    - min max value is it needed
-    - numbers / letters - if only this is required
-   --- - special characters in names ' - '
 
--->
 
 <!--Names of the owner, names of the cats and breed-->
+
+
+
 <fieldset>
+<!--muted to test next fieldest
     <legend>Your Details</legend>
 
     <label for="name">Name</label>
@@ -72,7 +70,8 @@
     <label for="cat2">Second cat (if applicable)</label>
     <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
 
-    <!--datalist drop down plus text field for breed-->
+
+
     <label for="breed">Breed of the cat</label>
     <input type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
 
@@ -96,8 +95,10 @@
    
     <input type="checkbox" name="documented breed" id="breeddocumented">
     <label for="breeddocumented">Is the breed documented?</label>
-  
-    <!--datalist drop down plus text field for breed for the second cat-->
+
+ 
+   
+
     <label for="breed2">Breed of the second cat</label>
     <input type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160">
 
@@ -119,13 +120,29 @@
     </datalist>
     <input type="checkbox" name="documented breed" id="breeddocumented2">
     <label for="breeddocumented2">Is the breed documented?</label>
-
-    <!--Address field set-->
-
+-->
 </fieldset>
 
+
+
+<!--
+    Form validation checklist
+    - is this field required?
+    - label for accesibility
+    - label needs id
+    - name so data is stored in database under name
+    - min max value is it needed
+    - numbers / letters - if only this is required
+   --- - special characters in names ' - '
+
+-->
+    <!--Address field set-->
 <fieldset>
     <legend>Your address</legend>
+
+<label for="email"></label>
+<input type="email" id="email">
+
 </fieldset>
 
 <fieldset>
