@@ -31,6 +31,7 @@
 
 <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
 
+
 <fieldset>
     <legend>Choose a date</legend>
 
@@ -41,6 +42,8 @@
     <button type="submit">Click here to check availibility</button>
 
 </fieldset>
+
+
 <!--
     Form validation checklist
     - is this field required?
@@ -49,22 +52,23 @@
     - name so data is stored in database under name
     - min max value is it needed
     - numbers / letters - if only this is required
+    - special characters in names ' - '
 
 -->
 <fieldset>
     <legend>Your Details</legend>
 
-    <label for=""></label>
-    <input type="text" name="" id="">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" pattern="[A-Za-z]{1,20}">
  
-    <label for=""></label>
-    <input type="text" name="" id="">
+    <label for="Surname">Surname</label>
+    <input type="text" name="surname" id="surname" minlength="2" maxlength="20" required>
 
-    <label for=""></label>
-    <input type="text" name="" id="">
+    <label for="cat1">Your cat's name</label>
+    <input type="text" name="cat1" id="cat1" minlength="2" maxlength="20" required>
 
-    <label for=""></label>
-    <input type="text" name="" id="">
+    <label for="cat2">Second cat (if applicable)</label>
+    <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="20">
 
     <label for=""></label>
     <input type="text" name="" id="">
