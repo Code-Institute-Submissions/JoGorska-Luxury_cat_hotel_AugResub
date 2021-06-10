@@ -34,7 +34,7 @@
 
 
 <fieldset>
-
+ <!-- Muted for testing
     <legend>Choose a date</legend>
 
     <label for="BookIN">Check in date</label>
@@ -43,7 +43,7 @@
     <input id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
     <button type="submit">Click here to check availibility</button>
 
-
+-->
 
 </fieldset>
 
@@ -55,7 +55,7 @@
 
 
 <fieldset>
-
+<!-- muted for testing 
     <legend>Your Details</legend>
 
     <label for="name">Name</label>
@@ -100,7 +100,7 @@
    
 
     <label for="breed2">Breed of the second cat</label>
-    <input type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160">
+    <input type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
 
     <datalist id="breedlist2">
         <option>None</option>
@@ -120,7 +120,7 @@
     </datalist>
     <input type="checkbox" name="documented breed" id="breeddocumented2">
     <label for="breeddocumented2">Is the breed documented?</label>
-
+-->
 </fieldset>
 
 
@@ -142,15 +142,17 @@
     <!--Address field set-->
 <fieldset>
     <legend>Your address</legend>
-
+<!--muted for testing
 <label for="email">Email address</label>
 <input type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
 <label for="email2">Confirm Email address</label>
 <input type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
+--->
+
 <label for=""></label>
-<input type="text">
+<input type="text" id="" name="" min="" max="" pattern="" title="" required>
 
 <label for=""></label>
 <input type="text">
