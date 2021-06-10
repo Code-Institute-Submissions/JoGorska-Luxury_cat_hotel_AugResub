@@ -163,8 +163,14 @@
 <label for=""></label>
 <input type="text">
 
+<!--
+    select conuty drop down form 
+https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
+
+need to have the field empty - why it is pre selecting Bedfordshire???
+-->
 <label for="conty">County</label>
-<select name="county" id="county">
+<select name="county" id="county" aria-placeholder="Select" required>
     <optgroup label="England">
         <option>Bedfordshire</option>
         <option>Berkshire</option>
