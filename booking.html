@@ -169,10 +169,14 @@
 
 
 <label for="street">Street</label>
-<input type="text" id="street" name="street" min="2" max="160" pattern="" title="" requried>
+<input type="text" id="street" name="street" min="2" max="160" title="" requried>
 
+<!--
+    pattern for postcode from stackoverflow
+https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
+-->
 <label for="Postcode">Postcode</label>
-<input type="text" id="postcode" name="postcode" pattern="" title="" required>
+<input type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
 
 <label for="town">Town</label>
 <input type="text" id="town" name="town" pattern="" title="" required>
