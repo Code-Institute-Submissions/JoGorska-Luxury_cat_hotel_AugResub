@@ -26,13 +26,15 @@ The final decision was.... pastel?
 
 #### Logo
 
-![icon of a castle](assets/images/0-castle-logo-small-black.jpg)
-created in the website:
+Appropriately to the page story and page title - the logo has been created using [Canva website](https://www.canva.com/). The logo features an icon of a castle. 
 
-https://www.canva.com/
+![icon of a castle](assets/images/0-logo-square.png)
 
-square logo - icon only
-long logo - icon and text
+
+Long version of the logo has been created using icon of the castle and TAN Mignon fonts. Fonts could not be used within website as the fonts were not available free.
+
+
+![icon of a castle and writing Cath's Cats' Castle, Luxury Cat hotel](assets/images/0-logo-long-black.png)
 
 
 ### User stories
@@ -77,3 +79,6 @@ https://coolors.co/
 
 compressing of the photos
 https://tinypng.com/
+
+created logo
+https://www.canva.com/
