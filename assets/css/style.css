@@ -1,10 +1,11 @@
 
 
 /*fonts*/
-.fonts-family-headers {
+.font-family-headers {
     font-family: 'Marck Script', cursive;
  }
-.font-family-plain
+ 
+.font-family-plain {
     font-family: 'Roboto', sans-serif;
 }
     
