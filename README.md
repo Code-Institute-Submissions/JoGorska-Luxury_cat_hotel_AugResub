@@ -9,17 +9,19 @@
 
 #### Colors palette and Color inspiration
 
-The inspiration for this website is warm dark interiors of some traditional English Coutnryside houses. I've chosen an inspiration from one of the photos posted on One Kings Lane website and used Coolors website to generatea a pallete. 
+The inspiration for this website is warm dark interiors of some traditional English Coutnryside houses. I've chosen an inspiration from one of the photos posted on [One Kings Lane](https://www.onekingslane.com/live-love-home/english-cottage-style/) website and used [Coolors](https://coolors.co/) website to generatea a pallete. 
 
-The general idea is to have background of the pages black and any pictures to be in darker color scheme. Than the colors like Cranbery and Royal blue would be applied to fonts and borders to show vibrancy and interest.
+Dark color scheme of the website seems to be eye friendly and can evoke warmness and cosyness of the interiors presented. Different colors were applied to fonts, borders and other elements as decoration, to ad vibrancy and interest.
 
-https://www.onekingslane.com/live-love-home/english-cottage-style/
 
 IMG needs to be compressed
+![image of a room with red walls navy armchair](/assets/images/01 colin-watts-qTaiDrxSsEA-unsplash.jpg)
 
-colours used pallete from 
+|On the basis of the above photo I generated 2 color pallettes: one with [vibrant colours](https://coolors.co/780000-c1121f-fdf0d5-003049-669bbc) and the other one with more [pastel colours](https://coolors.co/162b3d-2394b0-fefcf9-cd587a-352a3a).
 
-https://coolors.co/
+The final decision was.... pastel?
+
+
 
 #### Logo
 
@@ -70,3 +72,6 @@ https://www.onekingslane.com/live-love-home/english-cottage-style/
 
 Color palette
 https://coolors.co/
+
+compressing of the photos
+https://tinypng.com/
