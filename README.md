@@ -22,7 +22,7 @@ Dark color scheme of the website seems to be eye friendly and can evoke warmness
 
 The final decision was.... pastel?
 
-
+![Pastel Palette](assets/images/0-Ginger.png) ![Pastel Palette](assets/images/0-Pastel.png)
 
 #### Logo
 
