@@ -28,6 +28,16 @@ $baby-powder: hsla(36, 71%, 99%, 1);
 $cinnamon-satin: hsla(343, 54%, 57%, 1);
 $dark-purple: hsla(281, 16%, 20%, 1);
 
+
+/*fonts*/
+.font-family-headers {
+font-family: 'Marck Script', cursive;
+}
+
+.font-family-plain {
+font-family: 'Roboto', sans-serif;
+}
+
 /* SCSS RGB */
 $prussian-blue: rgba(22, 43, 61, 1);
 $blue-munsell: rgba(35, 148, 176, 1);

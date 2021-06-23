@@ -36,6 +36,11 @@ Long version of the logo has been created using icon of the castle and TAN Migno
 
 ![icon of a castle and writing Cath's Cats' Castle, Luxury Cat hotel](assets/images/0-long-logo-white.png)
 
+#### Typography
+
+Fonts applied
+google fonts were used to choose the fonts
+[Marck Script](https://fonts.google.com/specimen/Marck+Script?category=Handwriting#standard-styles) was chosen as the font for headers and [Roboto](https://fonts.google.com/specimen/Roboto?query=robo)
 
 ### User stories
 
