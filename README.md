@@ -26,6 +26,7 @@ The final decision was.... pastel?
 
 #### Logo
 
+![icon of a castle](assets/images/0-castle-logo-small-black.jpg)
 created in the website:
 
 https://www.canva.com/
