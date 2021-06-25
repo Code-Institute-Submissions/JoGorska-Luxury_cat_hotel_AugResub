@@ -34,7 +34,7 @@
 
 
 <fieldset>
- <!-- Muted for testing
+ 
     <legend>Choose a date</legend>
 
     <label for="BookIN">Check in date</label>
@@ -43,7 +43,7 @@
     <input id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
     <button type="submit">Click here to check availibility</button>
 
--->
+
 
 </fieldset>
 
@@ -55,7 +55,7 @@
 
 
 <fieldset>
-<!-- muted for testing 
+
     <legend>Your Details</legend>
 
     <label for="name">Name</label>
@@ -120,7 +120,7 @@
     </datalist>
     <input type="checkbox" name="documented breed" id="breeddocumented2">
     <label for="breeddocumented2">Is the breed documented?</label>
--->
+
 </fieldset>
 
 
@@ -141,25 +141,22 @@
 -->
     <!--Address field set-->
 <fieldset>
-    <legend>Your address</legend>
-<!--muted for testing
+    <legend>Address and contact details</legend>
+
 <label for="email">Email address</label>
 <input type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
 <label for="email2">Confirm Email address</label>
 <input type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
---->
 
-<!--muted for testing
 
-<label for="Mobile-number">Mobile Phone</label>
-<input type="tel" id="Mobile-number" name="Mobile-number"  pattern="[\d](10,11}" title="Please put valid UK mobile number (11 digts)" required>
+<label for="mobileNo">Mobile Number</label>
+<input type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
 
-<label for="Landline-number">Landline</label>
-<input type="tel" id="Landline-number" name="Landline-number" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
+<label for="landlineNo">Landline</label>
+<input type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
 
--->
 
 <!--add validation to each field!-->
 
@@ -170,6 +167,14 @@
 
 <label for="street">Street</label>
 <input type="text" id="street" name="street" min="2" max="160" title="" requried>
+
+
+
+
+
+
+
+
 
 <!--
     pattern for postcode from stackoverflow
@@ -182,14 +187,14 @@ https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
 <input type="text" id="town" name="town" pattern="" title="" required>
 
 
-
 <!--
-    select conuty drop down form copied from
+    select conuty drop down form 
 https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
 
 need to have the field empty - why it is pre selecting Bedfordshire???
-there is no selected atribute and placeholder doesn't work
+there is no atribude selected so why it is pre selected? placeholder doesn't work.
 -->
+
 <label for="conty">County</label>
 <select name="county" id="county" required>
     <optgroup label="England">
@@ -305,19 +310,26 @@ there is no selected atribute and placeholder doesn't work
 
 </fieldset>
 
+
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+
+
+
+
 <fieldset>
     <legend>Healthcare, wellbeing and diet</legend>
-
-
-    <label for=""></label>
-    <input type="text" id="" name="" min="" max="" pattern="" title="">
-    
-    <label for=""></label>
-    <input type="text" id="" name="" min="" max="" pattern="" title="">
-    
-    <label for=""></label>
-    <input type="text" id="" name="" min="" max="" pattern="" title="">
-
 </fieldset>
 
 <fieldset>
