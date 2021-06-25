@@ -83,6 +83,21 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 
 ## Features
 
+### Existing Features
+
+
+
+### Future developement of the website and new features
+- Two stages registration 
+
+            1. Calendar (check if date available)
+            2. Booking form with all details
+- New Calendar page would consist of 9 calendars - one for each room. This page would replace Booking page in navigation - so the user would be directed to the calendar to choose the room and check the dates
+- existing booking.html would become the booking form page - where the user would fill in all the details knowing that the dates are available
+- pop up advert - to advertize special deals, to encourage users to fill in empty spaces between bookings or short notice cancellations
+- Caruselle with more photos of the rooms, to enable the user to immerse in watching beautiful photos of interiors
+
+
 ## Testing
 
 ### Issues and Bugsad
