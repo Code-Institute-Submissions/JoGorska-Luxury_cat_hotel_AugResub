@@ -24,104 +24,104 @@
         <a href="#contact">Contact</a>
     </nav>
 
-<!--Main content-->
-<h1>Book a room</h1>
+    <!--Main content-->
+    <h1>Book a room</h1>
 
     <!--Check if you can use codeinstitute form dump-->
 
 
-<form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+    <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
 
 
-<fieldset>
+        <fieldset>
  
-    <legend>Choose a date</legend>
+            <legend>Choose a date</legend>
 
-    <label for="BookIN">Check in date</label>
-    <input id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance" required>
-    <label for="BookOUT">Check out date</label>
-    <input id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
-    <button type="submit">Click here to check availibility</button>
-
-
-
-</fieldset>
-
-
-
-
-<!--Names of the owner, names of the cats and breed-->
-
-
-
-<fieldset>
-
-    <legend>Your Details</legend>
-
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
- 
-    <label for="Surname">Surname</label>
-    <input type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
-
-    <label for="cat1">Your cat's name</label>
-    <input type="text" name="cat1" id="cat1" minlength="2" maxlength="160" required>
-
-    <label for="cat2">Second cat (if applicable)</label>
-    <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
-
-
-
-    <label for="breed">Breed of the cat</label>
-    <input type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
-
-    <datalist id="breedlist">
-        <option>None</option>
-        <option>British Shorthair</option>
-        <option>Persian cat</option>
-        <option>Maine Coon</option>
-        <option>Bengal cat</option>
-        <option>Ragdoll</option>
-        <option>Siamese cat</option>
-        <option>Burmese cat</option>
-        <option>Sphynx cat</option>
-        <option>Russian Blue</option>
-        <option>Abyssinian</option>
-        <option>Birman</option>
-        <option>Dachowiec</option>
-
-    </datalist>
-
-   
-    <input type="checkbox" name="documented breed" id="breeddocumented">
-    <label for="breeddocumented">Is the breed documented?</label>
-
- 
+            <label for="BookIN">Check in date</label>
+            <input id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance" required>
+            <label for="BookOUT">Check out date</label>
+            <input id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
    
 
-    <label for="breed2">Breed of the second cat</label>
-    <input type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+        </fieldset>
 
-    <datalist id="breedlist2">
-        <option>None</option>
-        <option>British Shorthair</option>
-        <option>Persian cat</option>
-        <option>Maine Coon</option>
-        <option>Bengal cat</option>
-        <option>Ragdoll</option>
-        <option>Siamese cat</option>
-        <option>Burmese cat</option>
-        <option>Sphynx cat</option>
-        <option>Russian Blue</option>
-        <option>Abyssinian</option>
-        <option>Birman</option>
-        <option>Dachowiec</option>
+        <fieldset>
+            <legend>Room</legend>
+        </fieldset>
 
-    </datalist>
-    <input type="checkbox" name="documented breed" id="breeddocumented2">
-    <label for="breeddocumented2">Is the breed documented?</label>
 
-</fieldset>
+        <!--Names of the owner, names of the cats and breed-->
+
+
+
+        <fieldset>
+
+            <legend>Your Details</legend>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+ 
+            <label for="Surname">Surname</label>
+            <input type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+
+            <label for="cat1">Your cat's name</label>
+            <input type="text" name="cat1" id="cat1" minlength="2" maxlength="160" required>
+
+            <label for="cat2">Second cat (if applicable)</label>
+            <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
+
+
+
+            <label for="breed">Breed of the cat</label>
+            <input type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+
+            <datalist id="breedlist">
+                <option>None</option>
+                <option>British Shorthair</option>
+                <option>Persian cat</option>
+                <option>Maine Coon</option>
+                <option>Bengal cat</option>
+                <option>Ragdoll</option>
+                <option>Siamese cat</option>
+                <option>Burmese cat</option>
+                <option>Sphynx cat</option>
+                <option>Russian Blue</option>
+                <option>Abyssinian</option>
+                <option>Birman</option>
+                <option>Dachowiec</option>
+
+            </datalist>
+
+   
+            <input type="checkbox" name="documented breed" id="breeddocumented">
+            <label for="breeddocumented">Is the breed documented?</label>
+
+ 
+   
+
+            <label for="breed2">Breed of the second cat</label>
+            <input type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+
+            <datalist id="breedlist2">
+                <option>None</option>
+                <option>British Shorthair</option>
+                <option>Persian cat</option>
+                <option>Maine Coon</option>
+                <option>Bengal cat</option>
+                <option>Ragdoll</option>
+                <option>Siamese cat</option>
+                <option>Burmese cat</option>
+                <option>Sphynx cat</option>
+                <option>Russian Blue</option>
+                <option>Abyssinian</option>
+                <option>Birman</option>
+                <option>Dachowiec</option>
+            </datalist>
+
+            <input type="checkbox" name="documented breed" id="breeddocumented2">
+            <label for="breeddocumented2">Is the breed documented?</label>
+
+        </fieldset>
 
 
 
@@ -336,9 +336,7 @@ there is no atribude selected so why it is pre selected? placeholder doesn't wor
     <legend>Choose your package</legend>
 </fieldset>
 
-<fieldset>
-    <legend>Room</legend>
-</fieldset>
+
 
 <fieldset>
     <legend>Dietary requirements</legend>
