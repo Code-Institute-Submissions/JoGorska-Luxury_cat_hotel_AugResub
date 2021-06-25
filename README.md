@@ -97,11 +97,6 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 - pop up advert - to advertize special deals, to encourage users to fill in empty spaces between bookings or short notice cancellations
 - Caruselle with more photos of the rooms, to enable the user to immerse in watching beautiful photos of interiors
 
-
-## Technologies used
-
-
-
 ## Testing
 
 Google chrome dev tools
@@ -117,9 +112,11 @@ unicorn finder
 
 ### Issues and Bugsad
 
+???
+
 ### Removed Features
 
-
+???
 
 ## Scalability
 
@@ -136,6 +133,8 @@ unicorn finder
 - vsCode to correct the code
 
 ## Media
+
+???
 
 ## Acknowledgements
 
