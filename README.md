@@ -1,7 +1,12 @@
 # Luxury Cat Hotel
 ## Description
 
+The website shows a fictious cattery called "Cath's cats' Castle - Luxury Cat Hotel". The purpose of this website is to encourage users to book their cats to stay in the cattery. The website highlights the benefits and uniquness of the cattery, by focusing on beautiful photos of interior, rather than cats. 
+
+This website was created to complete the first Milestone Project for the Code Institute's Diploma in Software Development (E-commerce Applications). 
+
 ## Deployment and Live demo
+
 
 ## User Experience (UX)
 ### User stories
@@ -76,7 +81,6 @@ Long version of the logo has been created using icon of the castle and TAN Migno
 Font family was chosen from popular styles of google fonts. The style of the headers is mimicking handwriting giving the viewer an impression of a personal touch from the owner of the website. Following this idea [Marck Script](https://fonts.google.com/specimen/Marck+Script?category=Handwriting#standard-styles) was chosen as the font for headers. The choise was taking into consideration that the user needs the fonts to be easy to read. Plain text requires much plainer fonts than headers. [Roboto](https://fonts.google.com/specimen/Roboto?query=robo) fonts for plain text. The plain text font was chosen from the fonts offered by google fonts as popular pairing. 
 
 
-
 ## Features
 
 ## Testing
@@ -118,3 +122,13 @@ https://tinypng.com/
 
 created logo
 https://www.canva.com/
+
+Readme file followed the pattern in the below mentioned repositories and video
+
+https://us02web.zoom.us/rec/play/zZzrdRcJ1Gz9isoaRTUcHNhB1VEqzkhcI4kkOUXEbTGTShtMaNQEpxYE7dW214K5X2OWveSRPLL-oWtA.5EMQT2YvoO2ZLIox?autoplay=true
+
+https://github.com/Daisy-McG/MilestoneProject-1#frequent-visitor-goals
+
+https://github.com/LigaMoon/Boredom-guide#technologies
+
+https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md
