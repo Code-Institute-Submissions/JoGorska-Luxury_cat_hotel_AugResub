@@ -3,7 +3,20 @@
 
 ## Deployment and Live demo
 
-## UX
+## User Experience (UX)
+### User stories
+
+#### First Time Visitor
+- 
+
+#### Returining Visitor
+
+#### Frequent Visitor
+
+
+
+### User Experience
+
 
 ### Brand and visual identity
 
@@ -42,9 +55,7 @@ Long version of the logo has been created using icon of the castle and TAN Migno
 
 Font family was chosen from popular styles of google fonts. The style of the headers is mimicking handwriting giving the viewer an impression of a personal touch from the owner of the website. Following this idea [Marck Script](https://fonts.google.com/specimen/Marck+Script?category=Handwriting#standard-styles) was chosen as the font for headers. The choise was taking into consideration that the user needs the fonts to be easy to read. Plain text requires much plainer fonts than headers. [Roboto](https://fonts.google.com/specimen/Roboto?query=robo) fonts for plain text. The plain text font was chosen from the fonts offered by google fonts as popular pairing. 
 
-### User stories
 
-### User Experience
 
 ## Features
 
