@@ -98,19 +98,42 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 - Caruselle with more photos of the rooms, to enable the user to immerse in watching beautiful photos of interiors
 
 
+## Technologies used
+
+
+
 ## Testing
+
+Google chrome dev tools
+
+lighthouse to audit the site (efficiency)
+
+https://validator.w3.org/
+
+https://jigsaw.w3.org/css-validator
+
+unicorn finder
+
 
 ### Issues and Bugsad
 
 ### Removed Features
+
+
 
 ## Scalability
 
 ## Technologies
 
 ### Languages and Frameworks
+- HTML
+- CSS
 
 ### Tools used
+- Bootstrap ???
+- Google Chrome dev tools for debugging
+- Google Lighthouse for audits
+- vsCode to correct the code
 
 ## Media
 
