@@ -17,11 +17,11 @@
 - As a first time visitor, I want to know the address and location of the cattery to be able to go and visit
 - As a first time visitor, I want to be able to contact the owners' of the cattery for more information
 
-#### The goals were achevend
+#### The goals were accomplished in the following ways:
 - The name of the website reffers to cats and is clearly visible in top left corner in mobile view and pc
 - the home page describes history of the owners' of the cattery
-- the prices page is accessible via menu button and prices are written in visualy simple cards form
-- the services are accessible via menu button
+- the prices page is accessible via nav bar button and prices are written in visualy simple cards form
+- the services are accessible via nav bar button
 - the photos of the rooms are available to view on the page rooms.html
 - the page services describes that the cattery is accomodating all healthcare and diet requirements
 - the contact page shows the google maps and full address of the cattery
@@ -31,12 +31,11 @@
 #### Returining Visitor
 - As a returning visitor, I need to access the booking form quickly
 
+#### Goals were accomplished in the following ways
+- the visitor can navigate from home page to booking using nav bar button
 
 #### Frequent Visitor
 
-
-
-### User Experience
 
 
 ### Brand and visual identity
