@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
+    <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
+    <meta name="author" content="JoGorska">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
+    <title>Luxury Cat Hotel</title>
+</head>
+<body>
+ 
+        <!--Nav bar-->
+    <!-- Remember to add aria-label to nav bar when it's ready-->
+    <nav>
+        <a href="/index.html">About us</a>
+        <a href="/rooms.html">Rooms</a>
+        <a href="/services.html">Services</a>
+        <a href="/prices.html">Prices</a>
+        <a href="/booking.html">Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+<!--Main content-->
+<h1>Book a room</h1>
+
+    <!--Check if you can use codeinstitute form dump-->
+
+
+<form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+
+
+<fieldset>
+ 
+    <legend>Choose a date</legend>
+
+    <label for="BookIN">Check in date</label>
+    <input id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance" required>
+    <label for="BookOUT">Check out date</label>
+    <input id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
+    <button type="submit">Click here to check availibility</button>
+
+
+
+</fieldset>
+
+
+
+
+<!--Names of the owner, names of the cats and breed-->
+
+
+
+<fieldset>
+
+    <legend>Your Details</legend>
+
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+ 
+    <label for="Surname">Surname</label>
+    <input type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+
+    <label for="cat1">Your cat's name</label>
+    <input type="text" name="cat1" id="cat1" minlength="2" maxlength="160" required>
+
+    <label for="cat2">Second cat (if applicable)</label>
+    <input type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
+
+
+
+    <label for="breed">Breed of the cat</label>
+    <input type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+
+    <datalist id="breedlist">
+        <option>None</option>
+        <option>British Shorthair</option>
+        <option>Persian cat</option>
+        <option>Maine Coon</option>
+        <option>Bengal cat</option>
+        <option>Ragdoll</option>
+        <option>Siamese cat</option>
+        <option>Burmese cat</option>
+        <option>Sphynx cat</option>
+        <option>Russian Blue</option>
+        <option>Abyssinian</option>
+        <option>Birman</option>
+        <option>Dachowiec</option>
+
+    </datalist>
+
+   
+    <input type="checkbox" name="documented breed" id="breeddocumented">
+    <label for="breeddocumented">Is the breed documented?</label>
+
+ 
+   
+
+    <label for="breed2">Breed of the second cat</label>
+    <input type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+
+    <datalist id="breedlist2">
+        <option>None</option>
+        <option>British Shorthair</option>
+        <option>Persian cat</option>
+        <option>Maine Coon</option>
+        <option>Bengal cat</option>
+        <option>Ragdoll</option>
+        <option>Siamese cat</option>
+        <option>Burmese cat</option>
+        <option>Sphynx cat</option>
+        <option>Russian Blue</option>
+        <option>Abyssinian</option>
+        <option>Birman</option>
+        <option>Dachowiec</option>
+
+    </datalist>
+    <input type="checkbox" name="documented breed" id="breeddocumented2">
+    <label for="breeddocumented2">Is the breed documented?</label>
+
+</fieldset>
+
+
+
+<!--
+    Form validation checklist
+    - is this field required?
+    - label for accesibility
+    - title to explain what the field requires
+    - label needs id
+    - name so data is stored in database under name
+    - min max value is it needed
+    - numbers / letters - if only this is required
+   --- - special characters in names ' - ' and emails
+   - pattern attribute format ==>> [A-Za-z1-9]+[@]+[A-Za-z1-9]+[.]+[A-Za-z1-9]{2,160}
+   - limit the number of characters?? 
+
+-->
+    <!--Address field set-->
+<fieldset>
+    <legend>Address and contact details</legend>
+
+<label for="email">Email address</label>
+<input type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+
+<label for="email2">Confirm Email address</label>
+<input type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+
+
+
+<label for="mobileNo">Mobile Number</label>
+<input type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
+
+<label for="landlineNo">Landline</label>
+<input type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
+
+
+<!--add validation to each field!-->
+
+
+<label for="house-name-number"><label for="">House Number / Name </label>
+<input type="text" id="house-name-number" name="house-name-number" min="2" max="160" title="House Number or Name" required>
+
+
+<label for="street">Street</label>
+<input type="text" id="street" name="street" min="2" max="160" title="" requried>
+
+
+
+
+
+
+
+
+
+<!--
+    pattern for postcode from stackoverflow
+https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
+-->
+<label for="Postcode">Postcode</label>
+<input type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
+
+<label for="town">Town</label>
+<input type="text" id="town" name="town" pattern="" title="" required>
+
+
+<!--
+    select conuty drop down form 
+https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
+
+need to have the field empty - why it is pre selecting Bedfordshire???
+there is no atribude selected so why it is pre selected? placeholder doesn't work.
+-->
+
+<label for="conty">County</label>
+<select name="county" id="county" required>
+    <optgroup label="England">
+        <option>Bedfordshire</option>
+        <option>Berkshire</option>
+        <option>Bristol</option>
+        <option>Buckinghamshire</option>
+        <option>Cambridgeshire</option>
+        <option>Cheshire</option>
+        <option>City of London</option>
+        <option>Cornwall</option>
+        <option>Cumbria</option>
+        <option>Derbyshire</option>
+        <option>Devon</option>
+        <option>Dorset</option>
+        <option>Durham</option>
+        <option>East Riding of Yorkshire</option>
+        <option>East Sussex</option>
+        <option>Essex</option>
+        <option>Gloucestershire</option>
+        <option>Greater London</option>
+        <option>Greater Manchester</option>
+        <option>Hampshire</option>
+        <option>Herefordshire</option>
+        <option>Hertfordshire</option>
+        <option>Isle of Wight</option>
+        <option>Kent</option>
+        <option>Lancashire</option>
+        <option>Leicestershire</option>
+        <option>Lincolnshire</option>
+        <option>Merseyside</option>
+        <option>Norfolk</option>
+        <option>North Yorkshire</option>
+        <option>Northamptonshire</option>
+        <option>Northumberland</option>
+        <option>Nottinghamshire</option>
+        <option>Oxfordshire</option>
+        <option>Rutland</option>
+        <option>Shropshire</option>
+        <option>Somerset</option>
+        <option>South Yorkshire</option>
+        <option>Staffordshire</option>
+        <option>Suffolk</option>
+        <option>Surrey</option>
+        <option>Tyne and Wear</option>
+        <option>Warwickshire</option>
+        <option>West Midlands</option>
+        <option>West Sussex</option>
+        <option>West Yorkshire</option>
+        <option>Wiltshire</option>
+        <option>Worcestershire</option>
+    </optgroup>
+    <optgroup label="Wales">
+        <option>Anglesey</option>
+        <option>Brecknockshire</option>
+        <option>Caernarfonshire</option>
+        <option>Carmarthenshire</option>
+        <option>Cardiganshire</option>
+        <option>Denbighshire</option>
+        <option>Flintshire</option>
+        <option>Glamorgan</option>
+        <option>Merioneth</option>
+        <option>Monmouthshire</option>
+        <option>Montgomeryshire</option>
+        <option>Pembrokeshire</option>
+        <option>Radnorshire</option>
+    </optgroup>
+    <optgroup label="Scotland">
+        <option>Aberdeenshire</option>
+        <option>Angus</option>
+        <option>Argyllshire</option>
+        <option>Ayrshire</option>
+        <option>Banffshire</option>
+        <option>Berwickshire</option>
+        <option>Buteshire</option>
+        <option>Cromartyshire</option>
+        <option>Caithness</option>
+        <option>Clackmannanshire</option>
+        <option>Dumfriesshire</option>
+        <option>Dunbartonshire</option>
+        <option>East Lothian</option>
+        <option>Fife</option>
+        <option>Inverness-shire</option>
+        <option>Kincardineshire</option>
+        <option>Kinross</option>
+        <option>Kirkcudbrightshire</option>
+        <option>Lanarkshire</option>
+        <option>Midlothian</option>
+        <option>Morayshire</option>
+        <option>Nairnshire</option>
+        <option>Orkney</option>
+        <option>Peeblesshire</option>
+        <option>Perthshire</option>
+        <option>Renfrewshire</option>
+        <option>Ross-shire</option>
+        <option>Roxburghshire</option>
+        <option>Selkirkshire</option>
+        <option>Shetland</option>
+        <option>Stirlingshire</option>
+        <option>Sutherland</option>
+        <option>West Lothian</option>
+        <option>Wigtownshire</option>
+    </optgroup>
+    <optgroup label="Northern Ireland">
+        <option>Antrim</option>
+        <option>Armagh</option>
+        <option>Down</option>
+        <option>Fermanagh</option>
+        <option>Londonderry</option>
+        <option>Tyrone</option>
+    </optgroup>
+</select>
+
+</fieldset>
+
+
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+<label for=""></label>
+<input type="text" id="" name="" min="" max="" pattern="" title="">
+
+
+
+
+
+<fieldset>
+    <legend>Healthcare, wellbeing and diet</legend>
+</fieldset>
+
+<fieldset>
+    <legend>Choose your package</legend>
+</fieldset>
+
+<fieldset>
+    <legend>Room</legend>
+</fieldset>
+
+<fieldset>
+    <legend>Dietary requirements</legend>
+</fieldset>
+
+<fieldset>
+    <legend>Additional services</legend>
+</fieldset>
+
+<fieldset>
+    <legend>Included in this Package</legend>
+</fieldset>
+
+<!--button to post-->
+<fieldset>
+    <legend>Submit</legend>
+    <div>
+        <input id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
+        <label for="gdpr">I agree to have my personal details processed in accordance with GDPR regulations</label>
+    </div>
+
+    <button type="submit">Click here to submit the booking form</button>
+    <button type="reset">Reset the form</button>
+</fieldset>
+
+
+
+
+
+</form>
+
+<!--The contact - Need to copy to each page so the user can scroll down or use link in nav bar-->
+<div id="contact">
+    <h1>Contact page and social media</h1>
+</div>
+    
+<!--Need a sticky footer following the user up when scrolling up and down -->
+<footer></footer>
+
+</body>
+</html>
