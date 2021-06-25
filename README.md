@@ -7,13 +7,26 @@
 ### User stories
 
 #### First Time Visitor
+- As a first time visitor, I what to know What sort of accomodation the website describes
+
 - As a first time visitor, I would like get to know the people that run the cattery
 - As a first time visitor, I want to be check the cost of accomodating my cat so I could compare easily with offers of other catteries
 - As a first time visitor, I want to be able to check what services the cattery provieds
-- As a first time visitor, I want to be able to see the pictures of accomodation available
+- As a first time visitor, I want to be able to see the phtotos of accomodation available
 - As a first time visitor, I need to be able to check if cattery accomodates for complex healthcare and diet requirements
 - As a first time visitor, I want to know the address and location of the cattery to be able to go and visit
 - As a first time visitor, I want to be able to contact the owners' of the cattery for more information
+
+#### The goals were achevend
+- The name of the website reffers to cats and is clearly visible in top left corner in mobile view and pc
+- the home page describes history of the owners' of the cattery
+- the prices page is accessible via menu button and prices are written in visualy simple cards form
+- the services are accessible via menu button
+- the photos of the rooms are available to view on the page rooms.html
+- the page services describes that the cattery is accomodating all healthcare and diet requirements
+- the contact page shows the google maps and full address of the cattery
+- the contact page contains a simple form to fill in to get in touch with the owners'
+
 
 #### Returining Visitor
 - As a returning visitor, I need to access the booking form quickly
