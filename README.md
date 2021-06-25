@@ -7,9 +7,17 @@
 ### User stories
 
 #### First Time Visitor
-- 
+- As a first time visitor, I would like get to know the people that run the cattery
+- As a first time visitor, I want to be check the cost of accomodating my cat so I could compare easily with offers of other catteries
+- As a first time visitor, I want to be able to check what services the cattery provieds
+- As a first time visitor, I want to be able to see the pictures of accomodation available
+- As a first time visitor, I need to be able to check if cattery accomodates for complex healthcare and diet requirements
+- As a first time visitor, I want to know the address and location of the cattery to be able to go and visit
+- As a first time visitor, I want to be able to contact the owners' of the cattery for more information
 
 #### Returining Visitor
+- As a returning visitor, I need to access the booking form quickly
+
 
 #### Frequent Visitor
 
