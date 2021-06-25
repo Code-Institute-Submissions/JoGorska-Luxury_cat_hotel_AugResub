@@ -153,177 +153,169 @@
 
 
 
-    <!--Address field set-->
-<fieldset>
-    <legend>Address and contact details</legend>
+        <!--Address field set-->
+        <fieldset>
+            <legend>Address and contact details</legend>
 
-<label for="email">Email address</label>
-<input type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
-<label for="email2">Confirm Email address</label>
-<input type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
-
-
-
-<label for="mobileNo">Mobile Number</label>
-<input type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
-
-<label for="landlineNo">Landline</label>
-<input type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
-
-
-<!--add validation to each field!-->
-
-
-<label for="house-name-number"><label for="">House Number / Name </label>
-<input type="text" id="house-name-number" name="house-name-number" min="2" max="160" title="House Number or Name" required>
-
-
-<label for="street">Street</label>
-<input type="text" id="street" name="street" min="2" max="160" title="" requried>
+            <label for="email2">Confirm Email address</label>
+            <input type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
 
 
+            <label for="mobileNo">Mobile Number</label>
+            <input type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
+
+            <label for="landlineNo">Landline</label>
+            <input type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
 
 
+            <!--add validation to each field!-->
 
 
+            <label for="house-name-number"><label for="">House Number / Name </label>
+            <input type="text" id="house-name-number" name="house-name-number" min="2" max="160" title="House Number or Name" required>
 
 
-<!--
-    pattern for postcode from stackoverflow
-https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
--->
-<label for="Postcode">Postcode</label>
-<input type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street" min="2" max="160" title="" requried>
 
-<label for="town">Town</label>
-<input type="text" id="town" name="town" pattern="" title="" required>
+            <!--
+                pattern for postcode from stackoverflow
+            https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
+            -->
+            <label for="Postcode">Postcode</label>
+            <input type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
+
+            <label for="town">Town</label>
+            <input type="text" id="town" name="town" pattern="" title="" required>
 
 
-<!--
-    select conuty drop down form 
-https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
+            <!--
+                select conuty drop down form 
+            https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
 
-need to have the field empty - why it is pre selecting Bedfordshire???
-there is no atribude selected so why it is pre selected? placeholder doesn't work.
--->
+            need to have the field empty - why it is pre selecting Bedfordshire???
+            there is no atribude selected so why it is pre selected? placeholder doesn't work.
+            -->
 
-<label for="conty">County</label>
-<select name="county" id="county" required>
-    <optgroup label="England">
-        <option></option>
-        <option>Bedfordshire</option>
-        <option>Berkshire</option>
-        <option>Bristol</option>
-        <option>Buckinghamshire</option>
-        <option>Cambridgeshire</option>
-        <option>Cheshire</option>
-        <option>City of London</option>
-        <option>Cornwall</option>
-        <option>Cumbria</option>
-        <option>Derbyshire</option>
-        <option>Devon</option>
-        <option>Dorset</option>
-        <option>Durham</option>
-        <option>East Riding of Yorkshire</option>
-        <option>East Sussex</option>
-        <option>Essex</option>
-        <option>Gloucestershire</option>
-        <option>Greater London</option>
-        <option>Greater Manchester</option>
-        <option>Hampshire</option>
-        <option>Herefordshire</option>
-        <option>Hertfordshire</option>
-        <option>Isle of Wight</option>
-        <option>Kent</option>
-        <option>Lancashire</option>
-        <option>Leicestershire</option>
-        <option>Lincolnshire</option>
-        <option>Merseyside</option>
-        <option>Norfolk</option>
-        <option>North Yorkshire</option>
-        <option>Northamptonshire</option>
-        <option>Northumberland</option>
-        <option>Nottinghamshire</option>
-        <option>Oxfordshire</option>
-        <option>Rutland</option>
-        <option>Shropshire</option>
-        <option>Somerset</option>
-        <option>South Yorkshire</option>
-        <option>Staffordshire</option>
-        <option>Suffolk</option>
-        <option>Surrey</option>
-        <option>Tyne and Wear</option>
-        <option>Warwickshire</option>
-        <option>West Midlands</option>
-        <option>West Sussex</option>
-        <option>West Yorkshire</option>
-        <option>Wiltshire</option>
-        <option>Worcestershire</option>
-    </optgroup>
-    <optgroup label="Wales">
-        <option>Anglesey</option>
-        <option>Brecknockshire</option>
-        <option>Caernarfonshire</option>
-        <option>Carmarthenshire</option>
-        <option>Cardiganshire</option>
-        <option>Denbighshire</option>
-        <option>Flintshire</option>
-        <option>Glamorgan</option>
-        <option>Merioneth</option>
-        <option>Monmouthshire</option>
-        <option>Montgomeryshire</option>
-        <option>Pembrokeshire</option>
-        <option>Radnorshire</option>
-    </optgroup>
-    <optgroup label="Scotland">
-        <option>Aberdeenshire</option>
-        <option>Angus</option>
-        <option>Argyllshire</option>
-        <option>Ayrshire</option>
-        <option>Banffshire</option>
-        <option>Berwickshire</option>
-        <option>Buteshire</option>
-        <option>Cromartyshire</option>
-        <option>Caithness</option>
-        <option>Clackmannanshire</option>
-        <option>Dumfriesshire</option>
-        <option>Dunbartonshire</option>
-        <option>East Lothian</option>
-        <option>Fife</option>
-        <option>Inverness-shire</option>
-        <option>Kincardineshire</option>
-        <option>Kinross</option>
-        <option>Kirkcudbrightshire</option>
-        <option>Lanarkshire</option>
-        <option>Midlothian</option>
-        <option>Morayshire</option>
-        <option>Nairnshire</option>
-        <option>Orkney</option>
-        <option>Peeblesshire</option>
-        <option>Perthshire</option>
-        <option>Renfrewshire</option>
-        <option>Ross-shire</option>
-        <option>Roxburghshire</option>
-        <option>Selkirkshire</option>
-        <option>Shetland</option>
-        <option>Stirlingshire</option>
-        <option>Sutherland</option>
-        <option>West Lothian</option>
-        <option>Wigtownshire</option>
-    </optgroup>
-    <optgroup label="Northern Ireland">
-        <option>Antrim</option>
-        <option>Armagh</option>
-        <option>Down</option>
-        <option>Fermanagh</option>
-        <option>Londonderry</option>
-        <option>Tyrone</option>
-    </optgroup>
-</select>
+            <label for="conty">County</label>
+            <select name="county" id="county" required>
+                <optgroup label="England">
+                    <option></option>
+                    <option>Bedfordshire</option>
+                    <option>Berkshire</option>
+                    <option>Bristol</option>
+                    <option>Buckinghamshire</option>
+                    <option>Cambridgeshire</option>
+                    <option>Cheshire</option>
+                    <option>City of London</option>
+                    <option>Cornwall</option>
+                    <option>Cumbria</option>
+                    <option>Derbyshire</option>
+                    <option>Devon</option>
+                    <option>Dorset</option>
+                    <option>Durham</option>
+                    <option>East Riding of Yorkshire</option>
+                    <option>East Sussex</option>
+                    <option>Essex</option>
+                    <option>Gloucestershire</option>
+                    <option>Greater London</option>
+                    <option>Greater Manchester</option>
+                    <option>Hampshire</option>
+                    <option>Herefordshire</option>
+                    <option>Hertfordshire</option>
+                    <option>Isle of Wight</option>
+                    <option>Kent</option>
+                    <option>Lancashire</option>
+                    <option>Leicestershire</option>
+                    <option>Lincolnshire</option>
+                    <option>Merseyside</option>
+                    <option>Norfolk</option>
+                    <option>North Yorkshire</option>
+                    <option>Northamptonshire</option>
+                    <option>Northumberland</option>
+                    <option>Nottinghamshire</option>
+                    <option>Oxfordshire</option>
+                    <option>Rutland</option>
+                    <option>Shropshire</option>
+                    <option>Somerset</option>
+                    <option>South Yorkshire</option>
+                    <option>Staffordshire</option>
+                    <option>Suffolk</option>
+                    <option>Surrey</option>
+                    <option>Tyne and Wear</option>
+                    <option>Warwickshire</option>
+                    <option>West Midlands</option>
+                    <option>West Sussex</option>
+                    <option>West Yorkshire</option>
+                    <option>Wiltshire</option>
+                    <option>Worcestershire</option>
+                </optgroup>
+                <optgroup label="Wales">
+                    <option>Anglesey</option>
+                    <option>Brecknockshire</option>
+                    <option>Caernarfonshire</option>
+                    <option>Carmarthenshire</option>
+                    <option>Cardiganshire</option>
+                    <option>Denbighshire</option>
+                    <option>Flintshire</option>
+                    <option>Glamorgan</option>
+                    <option>Merioneth</option>
+                    <option>Monmouthshire</option>
+                    <option>Montgomeryshire</option>
+                    <option>Pembrokeshire</option>
+                    <option>Radnorshire</option>
+                </optgroup>
+                <optgroup label="Scotland">
+                    <option>Aberdeenshire</option>
+                    <option>Angus</option>
+                    <option>Argyllshire</option>
+                    <option>Ayrshire</option>
+                    <option>Banffshire</option>
+                    <option>Berwickshire</option>
+                    <option>Buteshire</option>
+                    <option>Cromartyshire</option>
+                    <option>Caithness</option>
+                    <option>Clackmannanshire</option>
+                    <option>Dumfriesshire</option>
+                    <option>Dunbartonshire</option>
+                    <option>East Lothian</option>
+                    <option>Fife</option>
+                    <option>Inverness-shire</option>
+                    <option>Kincardineshire</option>
+                    <option>Kinross</option>
+                    <option>Kirkcudbrightshire</option>
+                    <option>Lanarkshire</option>
+                    <option>Midlothian</option>
+                    <option>Morayshire</option>
+                    <option>Nairnshire</option>
+                    <option>Orkney</option>
+                    <option>Peeblesshire</option>
+                    <option>Perthshire</option>
+                    <option>Renfrewshire</option>
+                    <option>Ross-shire</option>
+                    <option>Roxburghshire</option>
+                    <option>Selkirkshire</option>
+                    <option>Shetland</option>
+                    <option>Stirlingshire</option>
+                    <option>Sutherland</option>
+                    <option>West Lothian</option>
+                    <option>Wigtownshire</option>
+                </optgroup>
+                <optgroup label="Northern Ireland">
+                    <option>Antrim</option>
+                    <option>Armagh</option>
+                    <option>Down</option>
+                    <option>Fermanagh</option>
+                    <option>Londonderry</option>
+                    <option>Tyrone</option>
+                </optgroup>
+            </select>
 
-</fieldset>
+        </fieldset>
 
 
 
