@@ -81,16 +81,23 @@ Need to check:
 - why it doesn't make items 33% in a row after the pictures are loaded, it worked before the pictures were in
 - need to add so they strech and fill the space with a small gap between, control padding and marigin
 */
-.card-group-33 {
-    display: flex;
-    flex-wrap: wrap;
+
 }
 .card-33 {
     flex-basis: 100%;
 }
 
 @media screen and (min-width: 800px) {
+   
+    .card-group-33 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: np-wrap;
+
+
     .card-33 {
-        flex-basis: 33%;
+        flex: 1;
+        
     }
+
 }
