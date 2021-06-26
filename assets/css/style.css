@@ -74,9 +74,7 @@ sr-only {
 
 
 /*img for cards in rooms-bg.html*/
-.column {
-    height: 100vh;
-}
+
 
 .background-img-card-02-01 {
 
@@ -98,10 +96,17 @@ Need to check:
 - need to add so they strech and fill the space with a small gap between, control padding and marigin
 */
 
+
+
+.full-vh {
+    height: 100vh;
+}
+
+.max-vw {
+    width: 100vw;
 }
 .card-33 {
     flex-basis: 100%;
-    height: 100vh;
 }
 
 @media screen and (min-width: 800px) {
