@@ -71,7 +71,7 @@ sr-only {
 
 /*additional classes to style cards*/
 .full-vh {
-    height: 100vh;
+    height: 75vh;
 }
 
 .background-dark {
@@ -102,7 +102,7 @@ sr-only {
     background:
     linear-gradient(#222222aa, #222222aa),
     grey
-    url('/assets/images/02-02\ justin-sellars--TqEy38Dfdw-unsplash.jpg')
+    url('/assets/images/02-02-justin-sellars-TqEy38Dfdw-unsplash.jpg')
     no-repeat
     scroll;
 }
