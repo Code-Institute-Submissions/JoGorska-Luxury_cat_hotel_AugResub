@@ -70,9 +70,14 @@ sr-only {
 
 
 /*additional classes to style cards*/
+
 .full-vh {
     height: 75vh;
 }
+.max-vw {
+    width: 100vw;
+}
+
 .container {
     max-width: 100vw;
 }
@@ -87,8 +92,6 @@ figure {
 }
 
 /*img for cards in rooms-bg.html*/
-
-
 
 
 .background-img-card-02-01 {
@@ -188,23 +191,8 @@ figure {
 
 
 
-/* flex container */
+/*classes for rooms.html and rooms-bg.html*/
 
-/* 
-Need to check:
-- would grid work better than flexbox? 
-- default declaration for mobile in the version below and media rule for desktop
-- why it doesn't make items 33% in a row after the pictures are loaded, it worked before the pictures were in
-- need to add so they strech and fill the space with a small gap between, control padding and marigin
-*/
-
-
-
-
-
-.max-vw {
-    width: 100vw;
-}
 .card-33 {
     flex-basis: 100%;
 }

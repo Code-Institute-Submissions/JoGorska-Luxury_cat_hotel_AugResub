@@ -129,7 +129,7 @@ unicorn finder
 - CSS
 
 ### Tools used
-- Bootstrap ???
+- Bootstrap
 - Google Chrome dev tools for debugging
 - Google Lighthouse for audits
 - vsCode to correct the code
