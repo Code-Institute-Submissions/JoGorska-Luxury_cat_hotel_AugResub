@@ -112,7 +112,7 @@ unicorn finder
 
 ### Issues and Bugsad
 
-???
+style.css not accepting images to card background - as the file name were containing white space
 
 ### Removed Features
 
