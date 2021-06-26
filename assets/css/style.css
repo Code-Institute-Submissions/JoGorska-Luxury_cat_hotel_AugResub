@@ -69,11 +69,21 @@ sr-only {
 }
 
 
+/*additional classes to style cards*/
+.full-vh {
+    height: 100vh;
+}
 
+.background-dark {
+    background:
+    linear-gradient(#222222aa, #222222aa),   
+}
 
 
 
 /*img for cards in rooms-bg.html*/
+
+
 
 
 .background-img-card-02-01 {
@@ -85,6 +95,93 @@ sr-only {
     no-repeat
     scroll;
 }
+
+
+.background-img-card-02-02 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-02\ justin-sellars--TqEy38Dfdw-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+.background-img-card-02-03 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-03-davide-colonna-DZrZhVd_wR0-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+.background-img-card-02-04 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-04-stephanie-harvey-tWuaMnbbRHA-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+.background-img-card-02-05 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-05-henri-lajarrige-lombard-2GamiAIYCWo-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+
+.background-img-card-02-06 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-06-nathan-fertig-aYUZ7IkXdo0-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+.background-img-card-02-07 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-07-jonathan-borba-TWAMH0pzQdU-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+
+.background-img-card-02-08 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-08-alen-kajtezovic-S-AI-1k0F1k-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+.background-img-card-02-09 {
+
+    background:
+    linear-gradient(#222222aa, #222222aa),
+    grey
+    url('/assets/images/02-09-paul-volkmer-J0HI5iwYQaQ-unsplash.jpg')
+    no-repeat
+    scroll;
+}
+
+
+
+
 
 /* flex container */
 
@@ -98,9 +195,7 @@ Need to check:
 
 
 
-.full-vh {
-    height: 100vh;
-}
+
 
 .max-vw {
     width: 100vw;
