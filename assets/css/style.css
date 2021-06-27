@@ -51,6 +51,17 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
 
 /*fonts*/
 
+.font-white {
+    color: #fefcf9ff;
+}
+
+.font-red {
+    color: #cd587aff;
+}
+
+.font-blue {
+    color: #2394b0ff;
+}
 
 .font-family-header {
     font-family: 'Marck Script', cursive;
@@ -114,7 +125,7 @@ sr-only {
 .img-card {
     min-height: 60vh;
     filter:
-    opacity(50%)
+    opacity(30%)
     brightness()
     contrast()
     saturate()
