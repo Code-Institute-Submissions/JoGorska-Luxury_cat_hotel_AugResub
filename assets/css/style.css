@@ -50,7 +50,7 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
 
 
 /*fonts*/
-.font-family-headers {
+.font-family-header {
     font-family: 'Marck Script', cursive;
  }
  
@@ -94,12 +94,22 @@ sr-only {
     linear-gradient(#222222aa, #352a3aff),   
 }
 
+/*styling for cards*/
+
+.card-header {
+    position: relative;
+    top: 5vh;
+    text-align: center;
+}
+
 .figure-card {
     height: 60vh;
+
 }
 
 .img-card {
-
+    min-height: 60vh;
+    
 }
 
 /*img for cards in rooms-bg.html*/
