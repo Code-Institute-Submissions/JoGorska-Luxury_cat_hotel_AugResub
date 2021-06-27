@@ -94,12 +94,12 @@ sr-only {
     linear-gradient(#222222aa, #352a3aff),   
 }
 
-figure {
+.figure-card {
     height: 60vh;
 }
 
 .img-card {
-    
+
 }
 
 /*img for cards in rooms-bg.html*/
