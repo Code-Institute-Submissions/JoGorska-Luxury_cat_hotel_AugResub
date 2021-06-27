@@ -50,9 +50,11 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
 
 
 /*fonts*/
+
+
 .font-family-header {
     font-family: 'Marck Script', cursive;
- }
+}
  
 .font-family-plain {
     font-family: 'Roboto', sans-serif;
