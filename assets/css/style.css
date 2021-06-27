@@ -45,7 +45,9 @@ $gradient-bottom-left: linear-gradient(315deg, #162b3dff, #2394b0ff, #fefcf9ff, 
 $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #352a3aff);
 
 
-/*fonts*/
+/*fonts
+
+font-color doesn't work, can't override bootstrap's color property
 
 .font-white {
     color: #fefcf9ff;
@@ -58,6 +60,7 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
 .font-blue {
     color: #2394b0ff;
 }
+*/
 
 .font-family-header {
     font-family: 'Marck Script', cursive;
