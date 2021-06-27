@@ -64,7 +64,8 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
 }
  
 .font-family-plain {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Calligraffitti', cursive;
+    letter-spacing: 3px ;
 }
  
 /*background-color*/
@@ -108,9 +109,10 @@ sr-only {
 
 .card-header {
     position: relative;
-    top: 15vh;
+    top: 10vh;
     text-align: center;
     border: none;
+    height: 2em;
 }
 
 .figure-card {
@@ -124,11 +126,7 @@ sr-only {
     opacity(30%)
     brightness()
     contrast()
-    saturate()
-       
-    ;
-    
-    
+    saturate(); 
 }
 
 /*img for cards in rooms-bg.html*/
