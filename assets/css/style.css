@@ -63,6 +63,21 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
     background-color: #352a3aff;
 }
 
+
+/*classess used to override bootstrap
+solution from stackoverflow*/
+
+#bootstrap-override-nav-i, .font-family-header {
+    font-family: 'Marck Script', cursive;
+    font-size: larger;
+
+}
+
+#article, .font-family-header {
+    font-family: 'Marck Script', cursive;
+    font-size: 10vh;
+}
+
 /*-------------------------------styling for navbar--------------------------------------*/
 
 
