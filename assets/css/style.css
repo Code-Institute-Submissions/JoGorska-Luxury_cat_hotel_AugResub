@@ -87,7 +87,18 @@ sr-only class in tables
 sr-only {
     color: pink;
 }
+/*styling for navbar*/
 
+/*styling not working - cannot override bootstrap #iftimeallows*/
+
+.mr-auto {
+display: flex;
+justify-content: flex-end;
+}
+
+.nav-link:hover {
+    color: blue;
+}
 
 /*styling for cards*/
 
