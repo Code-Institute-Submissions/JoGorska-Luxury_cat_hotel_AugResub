@@ -98,20 +98,26 @@ solution from stackoverflow*/
 
 img-fluid from bootstrap not working!!!!*/
 
-.img-fluid {
-    min-width: 100%
-}
+
 
 .fa-angle-double-down {
     color: white;
     width: 100%;
     text-align: center;
     position: absolute;
-    top: 90vh;
+    top: 70vh;
        
 }
 
-
+.front-picture-container {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.big-img {
+    width: auto;
+    height: 100vh;
+}
 
 /*-------------------------------styling for navbar--------------------------------------*/
 
