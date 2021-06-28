@@ -8,161 +8,238 @@
     <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
     <meta name="author" content="JoGorska">
 
-    <!--google fonts links-->
+    <!--Bootstrap css-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
+    <!--google fonts links-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
 
-    <!--fontawsome-->
-
-    <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
     
+        
     <!--stylesheet-->
-
+    
     <link rel="stylesheet" href="/assets/css/style.css">
-
     <title>Luxury Cat Hotel</title>
 </head>
-<body>
- <!--Nav bar-->
- <nav>
-    <a href="index.html">About us</a>
-    <a href="/rooms.html">Rooms</a>
-    <a href="/services.html">Services</a>
-    <a href="/prices.html">Prices</a>
-    <a href="/booking.html">Booking</a>
-    <a href="#contact">Contact</a>
-</nav>
 
-<header><h1>The services we provide</h1></header>
+
+<body class="background-dark-purple text-light font-family-plain">
+
+
+<!--Bootstrap 5 (!) Nav bar here-->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="/assets/images/0-logo-square-white.png" alt="castle icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"><img src="/assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded"></a>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"href="/index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/rooms.html">Rooms</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link"href="/services.html">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"href="/prices.html">Prices</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"href="/booking.html">Booking</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"href="/contact.html">Contact</a>
+        </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+    
+<header class="font-family-header"><h1>Our luxury rooms</h1></header>
 
 
 <!--flex container starts here-->
-<div class="container">
+<div class="container overflow-hidden">
+<section class="row gx-5 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
    
     <!--this is one flex item (1)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-    </div>
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Kew Gardens Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-01-bundo-kim-eGGq-XOXsE4-unsplash.jpg" alt="sofa and old table glass, wall behind it showing garden"><figcaption></figcaption></figure>
+            <p class="card-description">This room was designed with a thought of the Kew Gardens in London. The greenery in the room is safe for cats and can be explored by them. This room also provides access to private secured garden, where cat can spend time outdoors in safe space.</p>
+        </div>
+        <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+    
 
     <!--this is one flex item (2)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-     </div>
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Oxford Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-02-justin-sellars-TqEy38Dfdw-unsplash.jpg" alt="old desk, small stool under it, cat under the stool in the deep shade"><figcaption></figcaption></figure>
+            <p class="card-description">Slightly cluttered interior of this room might remind someone of a busy Oxford's student's apartment with plenty of spaces for cat to hide. We have placed cameras strategically so you can always see your cat any time of the day.</p>
+        </div> 
+            <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+    
 
     <!--this is one flex item (3)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-    </div>
+    
+    <article class="column overflow-hidden font-family-plain">
+        <header class="card-header font-family-header">
+            <h2>London Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-03-davide-colonna-DZrZhVd_wR0-unsplash.jpg" alt="room with wite walls and very high ceiling, corner sofa, spiral staircase to the side"><figcaption></figcaption></figure>
+            <p class="card-description">This room was designed to reflect the modern and stylish apartment in London. Clean lines and bright colours allow the cat feel at home in a modern environment. This room provides access to a private balcony, where cat can spend quality time outdoors.</p>
+        </div>
+        <footer class="card-footer font-family-plain">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+    
 
-   <!--this is one flex item (4)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-    </div>
+
+<!--this is a second container-->
+
+
+
+    <!--this is one flex item (4)-->
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Verulamium Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-04-stephanie-harvey-tWuaMnbbRHA-unsplash.jpg" alt="cat sitting on the head of a leather sofa looking through old style window, greenery visible through the window"><figcaption></figcaption></figure>
+            <p class="card-description">This suite overlooks our own bit of history. We have recently re designed this part of the grounds and during the works we have discovered Roman Wall. We have now included the Roman Wall as the central feature in the garden.</p>
+        </div>
+        <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+  
 
 <!--this is one flex item (5)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-    </div>
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Cambridge Botanic Gardens</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-05-henri-lajarrige-lombard-2GamiAIYCWo-unsplash.jpg" alt="old style furnishings, wooden panelled wall painted light green, decorative fire place with decorative mirror above it and other old style pictures on the walls"><figcaption></figcaption></figure>
+            <p class="card-description">This is one of our rooms that provide an access to secure outdoor space. Wooden constructions with shelves and scratch posts allow your cat to explore and give him a good view of the area.  The interior is reflecting the feel of old Victorian house.</p>
+        </div>
+        <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
 
-<!--this is one flex item (6)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-    </div>
 
-       <!--this is one flex item (7)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-    </div>
+    <!--this is one flex item (6)-->
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Stonehenge Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-06-nathan-fertig-aYUZ7IkXdo0-unsplash.jpg" alt="cat lying on a puff, modern style furnishings, modern style lamp in a corner, white vail curtain behind the cat"><figcaption></figcaption></figure>
+            <p class="card-description">This Room features various climbing posts and cat furniture that resembles the standing stones of Stonhange. The stones are made from carboard. They are cat friendly, safe to jump on and very enjoyable as a scratch posts. </p>
+        </div>
+        <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+
+
+    <!--this is one flex item (7)-->
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Lucretia's Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-07-jonathan-borba-TWAMH0pzQdU-unsplash.jpg" alt="big room with decorative column full-vh background-img-card-02-01s and decorative elements on the ceiling, mixture of modern and old style furnishings, sofas and chairs"><figcaption></figcaption></figure>
+            <p class="card-description">This used to be my great grandma's bedroom. She loved being surrounded by cats and she made sure that her bedroom is accessible for any of her pets that wish to spend time with her.</p>
+        </div>
+        <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+    
 
     <!--this is one flex item (8)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-     </div>
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Glasgow Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-08-alen-kajtezovic-S-AI-1k0F1k-unsplash.jpg" alt="dark room with yellow sofa with rounded back, art deco style mirror above it, modern lamp in the corner and dark blue curtains"><figcaption></figcaption></figure>
+            <p class="card-description">This suite is designed in art deco style. The colours and shapes reflect the style of the time. It is filled with soft furnishings giving the cat plenty of space to climb on and to find his own spot to sleep.</p>
+        </div>
+        <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+    
 
     <!--this is one flex item (9)-->
-    <div class="item">
-        <article>
-            <header><h2></h2></header>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <section></section>
-            <footer>
-                <a href="#contact">Come and visit</a>
-                <a href="/booking.html">Go to booking site</a>
-            </footer>
-        </article>
-    </div>
+    
+    <article class="column overflow-hidden">
+        <header class="card-header font-family-header">
+            <h2>Ware Suite</h2>
+        </header>
+        <div class="card-body">
+            <figure class="figure-card"><img class="img-card" src="assets/images/02-09-paul-volkmer-J0HI5iwYQaQ-unsplash.jpg" alt="dark room with yellow armchair standing in front of the big windows, greenery visible through the window"><figcaption></figcaption></figure>
+            <p class="card-description">Where is Ware - you might ask. Ware is a town in Hertfordshire. This room is very warm and cosy and have an extra amount of hiding spaces. This is the only room equipped in infrared cameras - as you might not be able to find your cat that easily!</p>
+        </div>
+        <footer class="card-footer">
+            <a href="#contact">Come and visit</a>
+            <a href="/booking.html">Go to booking</a>
+        </footer>
+    </article>
+  </section>
 
-</div>
 
 
 
 <!--Need a sticky footer following the user up when scrolling up and down -->
 <footer></footer>
+
+<!--Bootstrap JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
