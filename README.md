@@ -174,5 +174,5 @@ https://github.com/LigaMoon/Boredom-guide#technologies
 https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md
 
 
-General help on how to use bootstrap classes and how to apply style, shared during Hackaton and applied in this project
+General help on how to use bootstrap's navbar's images, responsivness and styling, shared during Hackaton and applied in this project
 Dave Horrocks & Brian Smyth

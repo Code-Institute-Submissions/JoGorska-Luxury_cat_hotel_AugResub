@@ -91,6 +91,16 @@ sr-only {
 
 /*styling not working - cannot override bootstrap #iftimeallows*/
 
+/*
+collapsable menu center from
+https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootstrap-navbar
+*/
+
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+
+
 .mr-auto {
 display: flex;
 justify-content: flex-end;
