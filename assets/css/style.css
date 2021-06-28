@@ -98,13 +98,8 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
 
 .navbar .navbar-collapse {
     text-align: center;
-  }
-
-
-.mr-auto {
-display: flex;
-justify-content: flex-end;
 }
+
 
 .nav-link:hover {
     color: blue;
