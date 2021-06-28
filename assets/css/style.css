@@ -51,6 +51,7 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
 /*--------------------------------styles used in all pages-------------------------------------*/
 .font-family-header {
     font-family: 'Marck Script', cursive;
+    color: white;
 }
  
 .font-family-plain {
@@ -59,11 +60,15 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
     color: white;
 }
  
+
 /*background-color*/
 .background-dark-purple {
     background-color: #352a3aff;
 }
 
+.breathing-space-end {
+    height: 100vh;
+}
 
 /*classess used to override bootstrap
 solution from stackoverflow*/
@@ -71,18 +76,34 @@ solution from stackoverflow*/
 #bootstrap-override-nav-i, .font-family-header, footer {
     font-family: 'Marck Script', cursive;
     font-size: larger;
-
-}
-
-#article, .font-family-header {
-    font-family: 'Marck Script', cursive;
-    font-size: 10vh;
     color: white;
+
+}
+
+.font-very-large {
+    
+    font-size: 10vh;
 }
 
 
-/*-----------------------------big image all page--------------------------------------*/
 
+
+/*-----------------------------big image all page--------------------------------------
+
+img-fluid from bootstrap not working!!!!*/
+
+.img-fluid {
+    min-width: 100%
+}
+
+.fa-angle-double-down {
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 90vh;
+       
+}
 
 
 
