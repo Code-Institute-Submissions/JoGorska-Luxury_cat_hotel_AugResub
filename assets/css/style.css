@@ -85,7 +85,13 @@ solution from stackoverflow*/
     font-size: 10vh;
 }
 
+.overflow-auto {
+    overflow: auto;
+}
 
+.text-align-justify {
+    text-align: justify;
+}
 
 
 /*-----------------------------big image all page--------------------------------------
