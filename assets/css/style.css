@@ -1,3 +1,5 @@
+/*color palette - to be removed as can't override bootstrap's color palette*/
+
 /* CSS HEX */
 --prussian-blue: #162b3dff;
 --blue-munsell: #2394b0ff;
@@ -45,23 +47,8 @@ $gradient-bottom-left: linear-gradient(315deg, #162b3dff, #2394b0ff, #fefcf9ff, 
 $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #352a3aff);
 
 
-/*fonts
 
-font-color doesn't work, can't override bootstrap's color property
-
-.font-white {
-    color: #fefcf9ff;
-}
-
-.font-red {
-    color: #cd587aff;
-}
-
-.font-blue {
-    color: #2394b0ff;
-}
-*/
-
+/*--------------------------------styles used in all pages-------------------------------------*/
 .font-family-header {
     font-family: 'Marck Script', cursive;
 }
@@ -76,20 +63,9 @@ font-color doesn't work, can't override bootstrap's color property
     background-color: #352a3aff;
 }
 
+/*-------------------------------styling for navbar--------------------------------------*/
 
-/*accessibility
 
-need to add - visible for screen readers only - read more on fontawsome
-
-sr-only class in tables
-*/
-
-sr-only {
-    color: pink;
-}
-/*styling for navbar*/
-
-/*styling not working - cannot override bootstrap #iftimeallows*/
 
 /*
 collapsable menu center from
@@ -102,7 +78,7 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
 
 
 
-/*styling for cards*/
+/*------------------------------styling for cards-------------------------------------------*/
 
 .container {
     max-width: 100vw;
