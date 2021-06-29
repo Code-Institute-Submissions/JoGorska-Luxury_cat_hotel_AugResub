@@ -93,6 +93,10 @@ solution from stackoverflow*/
     text-align: justify;
 }
 
+.go-on-top {
+    z-index: 4;
+}
+
 
 /*-----------------------------big image all page--------------------------------------
 

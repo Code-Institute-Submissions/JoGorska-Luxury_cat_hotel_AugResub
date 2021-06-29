@@ -116,6 +116,7 @@ unicorn finder
 - rooms-bs-img.html very wide white space on both sides (left and right) of the grid in max width view. Used Unicorn revealer to find which element is causing it. Found that .container has set max width 960px by bootstrap. Used chrome dev tools to test solution - set max-width to 100vw. This has removed the white space. Tested on other view port sizes. No white space left. Added class to adjust max-width.
 - defauld bootstrap grid in rooms changed from 1 column to 3 columns which seemed inapropriate for tablets. Adjusted bootstrap classess and html structure to allow 1 or 2 or 3 columns depending of view port width. 
 - toggler in nav bar not working, replaced bootstrap css stylesheet link and added js link, which solved the problem
+- mobile phone menu was covered by arrow - from the image that is pointing down. Added high z-index to nav-bar which has solved the problem. 
 
 ### Removed Features
 
