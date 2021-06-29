@@ -7,6 +7,22 @@ This website was created to complete the first Milestone Project for the Code In
 
 ## Deployment and Live demo
 
+1. Go to github repository 
+https://github.com/JoGorska/Luxury_cat_hotel
+
+2. Go to Settings
+
+3. You will see menu on the left with options, manage access and others, you will find Pages at the end of this menu
+
+4. Choose source - master (or your branch) and click on Save
+
+5. You should see the information showing on a blue background "Your site is ready to be published" and showing the link
+
+6. Refresh the page (Github repository settings, were you were)
+
+7. The information should change to green background and show "Your site is published.." and give you address.
+
+
 
 ## User Experience (UX)
 ### User stories
