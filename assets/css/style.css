@@ -66,6 +66,12 @@ $gradient-radial: radial-gradient(#162b3dff, #2394b0ff, #fefcf9ff, #cd587aff, #3
     background-color: #352a3aff;
 }
 
+.breathing-for-header {
+    display: inline-block;
+    height: 20vh;
+    vertical-align: middle;
+}
+
 .breathing-space-end {
     height: 100vh;
 }
