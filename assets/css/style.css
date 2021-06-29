@@ -181,6 +181,14 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
 
 }
 
+.card-description-bs {
+    position: relative;
+    top: 5vh;
+    text-align: justify;
+
+}
+
+
 .card-footer {
     position: relative;
     bottom: 0;
@@ -189,4 +197,16 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     z-index: 4;
 }
 
+/*classess for bootstrap's cards*/
 
+.card-description-bs {
+    position: relative;
+    top: 5vh;
+    text-align: justify;
+
+}
+
+.img-opacity {
+
+    filter: opacity(30%); 
+}
