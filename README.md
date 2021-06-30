@@ -133,6 +133,7 @@ unicorn finder
 - defauld bootstrap grid in rooms changed from 1 column to 3 columns which seemed inapropriate for tablets. Adjusted bootstrap classess and html structure to allow 1 or 2 or 3 columns depending of view port width. 
 - toggler in nav bar not working, replaced bootstrap css stylesheet link and added js link, which solved the problem
 - mobile phone menu was covered by arrow - from the image that is pointing down. Added high z-index to nav-bar which has solved the problem. 
+- once the page was deployed it was not displaying correctly as if not connecting to stylesheet and not seeing the images in the folder. Replaced the absolute filepaths with relative filepaths, the same done with all links which has solved the problem
 
 ### Removed Features
 
