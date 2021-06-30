@@ -74,7 +74,7 @@ Dark color scheme of the website seems to be eye friendly and can evoke warmness
 
 Oryginally different colors were going to be applied to fonts, borders and other elements as decoration, to ad vibrancy and interest. I have chosen the below palette.
 
-![Pastel Palette](assets/images/0-Ginger-small.png) ![Pastel Palette](assets/images/0-Pastel-small.png)
+![Pastel Palette](assets/images/0-Pastel-small.png)
 
 
 Due to efficiency of working with Bootstrap I followed dark color scheme with limited input of standard Bootstrap's colors.
@@ -102,7 +102,11 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 
 ### Existing Features
 
-The user 
+- gallery of photos for rooms for user to see what accomodation is available
+- short description of various services provided by the cattery
+- clear distinction of pricing per week with table view explaining what is included in each package
+- extensive and detailed booking form, allowing to inform the cattery about all needs of the cat
+- short contact form allowing the user to fill in quickly
 
 
 ### Future developement of the website and new features
@@ -110,6 +114,7 @@ The user
 
             1. Calendar (check if date available)
             2. Booking form with all details
+
 - New Calendar page would consist of 9 calendars - one for each room. This page would replace Booking page in navigation - so the user would be directed to the calendar to choose the room and check the dates
 - existing booking.html would become the booking form page - where the user would fill in all the details knowing that the dates are available
 - pop up advert - to advertize special deals, to encourage users to fill in empty spaces between bookings or short notice cancellations
@@ -117,29 +122,32 @@ The user
 
 ## Testing
 
-Google chrome dev tools
+- Google chrome dev tools
+- [Unicorn revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Chrome plugin
 
-lighthouse to audit the site (efficiency)
+- [Lighthouse](toohttps://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to audit the site (efficiency)
 
-https://validator.w3.org/
+- [Validator](https://validator.w3.org/)
 
-https://jigsaw.w3.org/css-validator
+- [Jigsaw](https://jigsaw.w3.org/css-validator)
 
-unicorn finder
 
 
 ### Issues and Bugsad
 
 - style.css not accepting images to card background - as the file name were containing white space
-- rooms-bs-img.html very wide white space on both sides (left and right) of the grid in max width view. Used Unicorn revealer to find which element is causing it. Found that .container has set max width 960px by bootstrap. Used chrome dev tools to test solution - set max-width to 100vw. This has removed the white space. Tested on other view port sizes. No white space left. Added class to adjust max-width.
-- defauld bootstrap grid in rooms changed from 1 column to 3 columns which seemed inapropriate for tablets. Adjusted bootstrap classess and html structure to allow 1 or 2 or 3 columns depending of view port width. 
-- toggler in nav bar not working, replaced bootstrap css stylesheet link and added js link, which solved the problem
+- rooms.html very wide white space on both sides (left and right) of the grid in max width view. Used Unicorn revealer to find which element is causing it. Found that .container has set max width 960px by bootstrap. Used chrome dev tools to test solution - set max-width to 100vw. This has removed the white space. Tested on other view port sizes. No white space left. Added class to adjust max-width.
+- some bootstraps classes didn't seem to be working on some of the pages. I have realised that I have put link for Bootstrap 4 in some of the pages, while other pages were using Bootstrap 5. I changed all pages to Bootstrap 5 as it was dealing with the grid of the images in rooms very well. 
+- defauld bootstrap grid in rooms was planned to change  from 1 column to 3 columns depending on the width of viewport. This seemed inapropriate for tablets or big mobile phones held sideways. Tested on my Samsung Galaxy Note. Adjusted bootstrap classess and html structure to allow 1 or 2 or 3 columns depending of view port width. 
+- toggler in nav bar not working, menu wasn't dropping down, replaced bootstrap css stylesheet link and added js link, which solved the problem
 - mobile phone menu was covered by arrow - from the image that is pointing down. Added high z-index to nav-bar which has solved the problem. 
+- at later stages arrow was removed from the page
 - once the page was deployed it was not displaying correctly as if not connecting to stylesheet and not seeing the images in the folder. Replaced the absolute filepaths with relative filepaths, the same done with all links which has solved the problem
+- main header in cards in prices was displaying on top of the other text. Checked css - it seemed that I was trying to edit the bootstrap's clases for cards. Changed my classes to add my- at the beggining of each class. This has solved the problem. 
 
 ### Removed Features
 
-???
+Contact page was going to include a map and link to social media. Unfortunately those features had to be removed due to lack of time.
 
 ## Scalability
 
