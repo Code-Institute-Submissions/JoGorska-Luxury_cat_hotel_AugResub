@@ -152,6 +152,15 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 
 ## Scalability
 
+The page was designed with mobile phone users in mind. The images and tables are responsive. 
+
+![screenshot - showcase showing page About Us on various devices](assets/images/4-showcase-index.PNG)
+
+The grid used in rooms and services allows the user to view the images in 1, 2 or 3 columns, depending on view port width.
+
+![screenshot - showcase showing page Services on various devices](assets/images/4-showcase-services.PNG)
+
+
 ## Technologies
 
 ### Languages and Frameworks
@@ -160,13 +169,11 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 
 ### Tools used
 - Bootstrap
-- Google Chrome dev tools for debugging
+- Google Chrome dev tools and Unicorn Revealer for debugging
 - Google Lighthouse for audits
-- vsCode to correct the code
+- Stack Overflow 
 
-## Media
 
-???
 
 ## Acknowledgements
 
