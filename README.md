@@ -206,3 +206,7 @@ https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md
 - Dave Horrocks & Brian Smyth - for general help on how to use bootstrap's navbar's images, responsivness and styling, shared during Hackaton and applied in this project
 
 - Felippe Souza Alarcon - for mentoring, guidance, technical advice and moral support
+
+- Tiger called Ginger for inspiration
+
+![ginger cat asleep on a sofa, lamp in the background](assets/images/04-Tiger-asleep.jpg)
