@@ -89,7 +89,7 @@ Appropriately to the page story and page title - the logo has been created using
 Long version of the logo has been created using icon of the castle and TAN Mignon fonts. Fonts could not be used within website as the fonts were not available free.
 
 
-![icon of a castle and writing Cath's Cats' Castle, Luxury Cat hotel](assets/images/0-long-logo-white.png)
+![icon of a castle and writing Cath's Cats' Castle, Luxury Cat hotel](assets/images/0-long-logo-black.png)
 
 #### Typography
 
