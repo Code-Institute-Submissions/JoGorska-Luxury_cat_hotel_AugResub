@@ -123,10 +123,10 @@
  
             <legend>Choose a date</legend>
 
-            <label class="form-label" for="BookIN">Check in date*</label>
-            <input class="form-control bg-secondary mb-3" id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance">
-            <label class="form-label" for="BookOUT">Check out date*</label>
-            <input class="form-control bg-secondary mb3" id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance">
+            <label class="form-label" for="BookIN">Check in date</label>
+            <input class="form-control bg-secondary mb-3" id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance" required>
+            <label class="form-label" for="BookOUT">Check out date</label>
+            <input class="form-control bg-secondary mb3" id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
    
         </fieldset>
 
@@ -233,10 +233,8 @@
             </div>
         </fieldset>
 
-
-
-
         <!--Address field set-->
+
         <fieldset class="container border-bottom pb-5 mb-5">
             <legend>Address and contact details</legend>
 
@@ -254,16 +252,12 @@
             <label class="form-label" for="landlineNo">Landline</label>
             <input class="form-control bg-secondary mb-3" type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
 
-
-            <!--add validation to each field!-->
-
-
-            <label class="form-label" for="house-name-number"><label class="form-label" for="">House Number / Name </label>
+            <label class="form-label" for="house-name-number">House Number / Name</label>
             <input class="form-control bg-secondary mb-3" type="text" id="house-name-number" name="house-name-number" min="2" max="160" title="House Number or Name" required>
 
 
             <label class="form-label" for="street">Street</label>
-            <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" min="2" max="160" title="" requried>
+            <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" min="2" max="160" title="Street" requried>
 
             <!--
                 pattern for postcode from stackoverflow
@@ -285,7 +279,7 @@
             -->
 
             <label class="form-label" for="conty">County</label>
-            <select class="bg-secondary mb-3" name="county" id="county" required>
+            <select class="form-select bg-secondary mb-3" name="county" id="county" required>
                 <optgroup label="England">
                     <option></option>
                     <option>Bedfordshire</option>
