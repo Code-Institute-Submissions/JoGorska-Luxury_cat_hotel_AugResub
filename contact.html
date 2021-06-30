@@ -99,9 +99,35 @@
 
 <div class="container pb-5 mb-5">
 
+  <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
 
+    <div class="my-input-100 p-5">
 
-
+      <label for="name">Name</label>
+      <input class="my-input-100" type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+    </div>
+    <div class="my-input-100 p-5">
+      <label for="Surname">Surname</label>
+      <input class="my-input-100" type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+    </div>
+    <div class="my-input-100 p-5">
+      <label for="email">Email address</label>
+      <input class="my-input-100" type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+    </div>
+    <div class="my-input-100 p-5">
+      <label for="mobileNo">Mobile number</label>
+      <input class="my-input-100" type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
+    </div>
+    <div class="my-input-100 p-5">
+      <label for="enquiry">Your enquiry</label>
+      <input class="my-input-100" type="text" id="enquiry" name="enquiry"  required>
+    </div>
+    
+    <div class="my-input-100 p-5">
+      <button type="submit" class="btn btn-outline-secondary">Submit</button>
+    </div>
+    
+  </form>
 </div>
 
 

@@ -189,3 +189,11 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
       font-size: 3.5rem;
     }
   }
+
+  /*additional css for forms*/
+.my-input-100 {
+    display: inline-block;
+    width: 100vw;
+}
+
+
