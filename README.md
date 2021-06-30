@@ -209,4 +209,4 @@ https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md
 
 - Tiger called Ginger for inspiration
 
-![ginger cat asleep on a sofa, lamp in the background](assets/images/04-Tiger-asleep.jpg)
+![ginger cat asleep on a sofa, lamp in the background](assets/images/04-tiger-asleep.jpg)
