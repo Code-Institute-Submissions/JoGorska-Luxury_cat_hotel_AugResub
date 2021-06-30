@@ -207,6 +207,5 @@ https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md
 
 - Felippe Souza Alarcon - for mentoring, guidance, technical advice and moral support
 
-- Tiger called Ginger for inspiration
+- cat Tiger called Ginger for inspiration
 
-![ginger cat asleep on a sofa, lamp in the background](assets/images/04-tiger-asleep.jpg)
