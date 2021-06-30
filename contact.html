@@ -118,15 +118,20 @@
       <label for="mobileNo">Mobile number</label>
       <input class="my-input-100" type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
     </div>
-    <div class="my-input-100 p-5">
+    <div class="container-flex p-5">
       <label for="enquiry">Your enquiry</label>
       <input class="my-input-100" type="text" id="enquiry" name="enquiry"  required>
     </div>
-    
-    <div class="my-input-100 p-5">
-      <button type="submit" class="btn btn-outline-secondary">Submit</button>
-    </div>
-    
+
+    <footer class="container-flex text-center p-5">
+      <div class="row">
+        <div class="col-6">      
+          <button type="submit" class="btn btn-outline-secondary btn-lg my-input-50">Send</button>
+        </div>
+        <div class="col-6">
+          <button type="reset" class="btn btn-outline-danger btn-lg my-input-50">Reset</button>
+        </div>  
+      </div>    
   </form>
 </div>
 

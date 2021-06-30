@@ -191,9 +191,13 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
   }
 
   /*additional css for forms*/
+
 .my-input-100 {
     display: inline-block;
-    width: 100vw;
+    width: 100%;
 }
 
-
+.my-input-50 {
+    display: inline-block;
+    width: 50%;
+}
