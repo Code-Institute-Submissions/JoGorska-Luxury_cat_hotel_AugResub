@@ -62,28 +62,22 @@ This website was created to complete the first Milestone Project for the Code In
 #### Goals were accomplished in the following ways
 - the visitor can navigate from home page to booking using nav bar button
 
-#### Frequent Visitor
-
-???
 
 ### Brand and visual identity
 
 #### Colors palette and Color inspiration
 
-The inspiration for this website is warm dark interiors of some traditional English Coutnryside houses. I've chosen an inspiration from one of the photos posted on [One Kings Lane](https://www.onekingslane.com/live-love-home/english-cottage-style/) website and used [Coolors](https://coolors.co/) website to generatea a pallete. 
+The inspiration for this website is warm dark interiors of some traditional English Coutnryside houses. 
+
+Dark color scheme of the website seems to be eye friendly and can evoke warmness and cosyness of the interiors presented. 
 
 
-Dark color scheme of the website seems to be eye friendly and can evoke warmness and cosyness of the interiors presented. Different colors were applied to fonts, borders and other elements as decoration, to ad vibrancy and interest.
-
-
-![image of a room with red walls navy armchair](https://okl.scene7.com/is/image/OKL/BLOG3_ANTIQUELONDON_090617?wid=1066&op_sharpen=1)
-
-
-|On the basis of the above photo I generated 2 color pallettes: one with [vibrant colours](https://coolors.co/780000-c1121f-fdf0d5-003049-669bbc) and the other one with more [pastel colours](https://coolors.co/162b3d-2394b0-fefcf9-cd587a-352a3a).
-
-The final decision was.... pastel?
+Oryginally different colors were going to be applied to fonts, borders and other elements as decoration, to ad vibrancy and interest. I have chosen the below palette.
 
 ![Pastel Palette](assets/images/0-Ginger-small.png) ![Pastel Palette](assets/images/0-Pastel-small.png)
+
+
+Due to efficiency of working with Bootstrap I followed dark color scheme with limited input of standard Bootstrap's colors.
 
 #### Logo
 
