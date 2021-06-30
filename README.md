@@ -81,12 +81,12 @@ Due to efficiency of working with Bootstrap I followed dark color scheme with li
 
 #### Logo
 
-Appropriately to the page story and page title - the logo has been created using [Canva website](https://www.canva.com/). The logo features an icon of a castle. 
+Appropriately to the page story and page title - the logo has been created using [Canva website](https://www.canva.com/). The logo features an icon of a castle. The square logo was going to be used as menu toggler for mobile phone users, but the idea was dropped, as it was not intuitive for the user. User expects the menu to be under very popular hamburger button. 
 
 ![icon of a castle](assets/images/0-logo-square.png)
 
 
-Long version of the logo has been created using icon of the castle and TAN Mignon fonts. Fonts could not be used within website as the fonts were not available free.
+Long version of the logo has been created using icon of the castle and TAN Mignon fonts. This logo was used in navbar.
 
 
 ![icon of a castle and writing Cath's Cats' Castle, Luxury Cat hotel](assets/images/0-long-logo-black.png)
@@ -102,6 +102,7 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 
 ### Existing Features
 
+The user 
 
 
 ### Future developement of the website and new features
