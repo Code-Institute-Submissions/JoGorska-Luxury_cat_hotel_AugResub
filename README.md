@@ -7,8 +7,15 @@ This website was created to complete the first Milestone Project for the Code In
 
 ## Deployment and Live demo
 
-1. Go to github repository 
-https://github.com/JoGorska/Luxury_cat_hotel
+### How to clone this page
+1. Go to Github repository for [Luxury Cat Hotel](https://github.com/JoGorska/Luxury_cat_hotel)
+
+2. Next to the green gitpod button you will see a button "code" with arrow pointing down 
+3. You are given two options to open Github desktop or download zip
+
+### How to deploy the page
+
+1. Go to github repository for [Luxury Cat Hotel](https://github.com/JoGorska/Luxury_cat_hotel)
 
 2. Go to Settings
 
