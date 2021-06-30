@@ -134,7 +134,7 @@
             <legend>Room</legend>
 
             <label class="form-label" for="room">Choose room from drop down list</label>
-            <select class="bg-secondary" name="room" id="room">
+            <select class="bg-secondary mb-3" name="room" id="room">
                 <option></option>
                 <option value="Kew Gardens">Kew Gardens</option>
                 <option value="Oxford Suite">Oxford Suite</option>
@@ -147,11 +147,11 @@
                 <option value="Ware Suite">Ware Suite</option>
             </select>
             
-            <input class="bg-secondary" type="checkbox" id="room-view" name="room-view" checked required title="all rooms have a view onto birdfeeders allowing cat to watch wildlife">
-            <label class="form-label" for="room-view">Room with a view</label>
+            <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-view" name="room-view" checked required title="all rooms have a view onto birdfeeders allowing cat to watch wildlife">
+            <label class="form-check-label" for="room-view">Room with a view</label>
 
-            <input class="bg-secondary" type="checkbox" id="room-outdoor" name="room-outdoor">
-            <label class="form-label" for="room-outdoor">Access to private secured outdoor space</label>
+            <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-outdoor" name="room-outdoor">
+            <label class="form-check-label" for="room-outdoor">Access to private secured outdoor space</label>
         </fieldset>
 
 
@@ -164,21 +164,21 @@
             <legend>Your Details</legend>
 
             <label class="form-label" for="name">Name</label>
-            <input class="bg-secondary" type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+            <input class="form-control bg-secondary mb-3" type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
  
             <label class="form-label" for="Surname">Surname</label>
-            <input class="bg-secondary" type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+            <input class="form-control bg-secondary mb-3" type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
 
             <label class="form-label" for="cat1">Your cat's name</label>
-            <input class="bg-secondary" type="text" name="cat1" id="cat1" minlength="2" maxlength="160" required>
+            <input class="form-control bg-secondary mb-3" type="text" name="cat1" id="cat1" minlength="2" maxlength="160" required>
 
             <label class="form-label" for="cat2">Second cat (if applicable)</label>
-            <input class="bg-secondary" type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
+            <input class="form-control bg-secondary mb-3" type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
 
 
 
             <label class="form-label" for="breed">Breed of the cat</label>
-            <input class="bg-secondary" type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+            <input class="form-control bg-secondary mb-3" type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
 
             <datalist id="breedlist">
                 <option>None</option>
@@ -198,14 +198,14 @@
             </datalist>
 
    
-            <input class="bg-secondary" type="checkbox" name="documented breed" id="breeddocumented">
-            <label class="form-label" for="breeddocumented">Is the breed documented?</label>
+            <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented">
+            <label class="form-check-label" for="breeddocumented">Is the breed documented?</label>
 
  
    
 
             <label class="form-label" for="breed2">Breed of the second cat</label>
-            <input class="bg-secondary" type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
+            <input class="form-control bg-secondary mb-3" type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
 
             <datalist id="breedlist2">
                 <option>None</option>
@@ -223,8 +223,8 @@
                 <option>Dachowiec</option>
             </datalist>
 
-            <input class="bg-secondary" type="checkbox" name="documented breed" id="breeddocumented2">
-            <label class="form-label" for="breeddocumented2">Is the breed documented?</label>
+            <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented2">
+            <label class="form-check-label" for="breeddocumented2">Is the breed documented?</label>
 
         </fieldset>
 
@@ -236,39 +236,39 @@
             <legend>Address and contact details</legend>
 
             <label class="form-label" for="email">Email address</label>
-            <input class="bg-secondary" type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+            <input class="form-control bg-secondary mb-3" type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
             <label class="form-label" for="email2">Confirm Email address</label>
-            <input class="bg-secondary" type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+            <input class="form-control bg-secondary mb-3" type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
 
 
 
             <label class="form-label" for="mobileNo">Mobile Number</label>
-            <input class="bg-secondary" type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
+            <input class="form-control bg-secondary mb-3" type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
 
             <label class="form-label" for="landlineNo">Landline</label>
-            <input class="bg-secondary" type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
+            <input class="form-control bg-secondary mb-3" type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
 
 
             <!--add validation to each field!-->
 
 
             <label class="form-label" for="house-name-number"><label class="form-label" for="">House Number / Name </label>
-            <input class="bg-secondary" type="text" id="house-name-number" name="house-name-number" min="2" max="160" title="House Number or Name" required>
+            <input class="form-control bg-secondary mb-3" type="text" id="house-name-number" name="house-name-number" min="2" max="160" title="House Number or Name" required>
 
 
             <label class="form-label" for="street">Street</label>
-            <input class="bg-secondary" type="text" id="street" name="street" min="2" max="160" title="" requried>
+            <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" min="2" max="160" title="" requried>
 
             <!--
                 pattern for postcode from stackoverflow
             https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
             -->
             <label class="form-label" for="Postcode">Postcode</label>
-            <input class="bg-secondary" type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
+            <input class="form-control bg-secondary mb-3" type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
 
             <label class="form-label" for="town">Town</label>
-            <input class="bg-secondary" type="text" id="town" name="town" pattern="" title="" required>
+            <input class="form-control bg-secondary mb-3" type="text" id="town" name="town" pattern="" title="" required>
 
 
             <!--
@@ -280,7 +280,7 @@
             -->
 
             <label class="form-label" for="conty">County</label>
-            <select class="bg-secondary" name="county" id="county" required>
+            <select class="bg-secondary mb-3" name="county" id="county" required>
                 <optgroup label="England">
                     <option></option>
                     <option>Bedfordshire</option>
@@ -403,11 +403,11 @@
         <!--Additional Services-->
 
 <label class="form-label" for=""></label>
-<input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+<input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
         <!--Included in this package-->
 
 <label class="form-label" for=""></label>
-<input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+<input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
 
         <!--Healthcare, Wellbeing and Diet-->
 
@@ -415,13 +415,13 @@
     <legend>Healthcare, wellbeing and diet</legend>
 
     <label class="form-label" for=""></label>
-    <input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+    <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
 
     <label class="form-label" for=""></label>
-    <input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+    <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
 
     <label class="form-label" for=""></label>
-    <input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+    <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
 
 
 </fieldset>
@@ -429,7 +429,7 @@
        <!--Choose your package-->
 
        <label class="form-label" for=""></label>
-       <input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+       <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
        
 
 <fieldset>
@@ -445,10 +445,10 @@
 
 
 <label class="form-label" for=""></label>
-<input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+<input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
         
 <label class="form-label" for=""></label>
-<input class="bg-secondary" type="text" id="" name="" min="" max="" pattern="" title="">
+<input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
 </fieldset>
 
 <fieldset>
@@ -465,8 +465,8 @@
 <fieldset>
     <legend>Submit</legend>
     <div>
-        <input class="bg-secondary"id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
-        <label class="form-label" for="gdpr">I agree to have my personal details processed in accordance with GDPR regulations</label>
+        <input class="form-check-input bg-secondary mb-3"id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
+        <label class="form-check-label" for="gdpr">I agree to have my personal details processed in accordance with GDPR regulations</label>
     </div>
 
     <button type="submit">Click here to submit the booking form</button>
