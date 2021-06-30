@@ -97,7 +97,7 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
 
 /*-----------------------------styling for footer------------------------------------------*/
 
-.footer {
+.my-footer {
     display: inline-block;
     width: 100%;
     position: fixed;
