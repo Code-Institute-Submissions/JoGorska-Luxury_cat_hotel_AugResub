@@ -128,13 +128,13 @@
             <label class="form-label" for="BookOUT">Check out date*</label>
             <input class="form-control bg-secondary mb3" id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance">
    
-        </fieldset class="container border-bottom pb-5 mb-5">
+        </fieldset>
 
         <fieldset class="container border-bottom pb-5 mb-5">
             <legend>Room</legend>
 
             <label class="form-label" for="room">Choose room from drop down list</label>
-            <select class="bg-secondary mb-3" name="room" id="room">
+            <select class="form-select bg-secondary mb-3" name="room" id="room">
                 <option></option>
                 <option value="Kew Gardens">Kew Gardens</option>
                 <option value="Oxford Suite">Oxford Suite</option>
@@ -146,13 +146,17 @@
                 <option value="Glasgow Suite">Glasgow Suite</option>
                 <option value="Ware Suite">Ware Suite</option>
             </select>
-            
-            <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-view" name="room-view" checked required title="all rooms have a view onto birdfeeders allowing cat to watch wildlife">
-            <label class="form-check-label" for="room-view">Room with a view</label>
 
+            <div class="form-check">
+            <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-view" name="room-view" checked disabled required title="all rooms have a view onto birdfeeders allowing cat to watch wildlife">
+            <label class="form-check-label" for="room-view">Room with a view</label>
+            </div>
+            
+            <div class="form-check">
             <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-outdoor" name="room-outdoor">
             <label class="form-check-label" for="room-outdoor">Access to private secured outdoor space</label>
-        </fieldset class="container border-bottom pb-5 mb-5">
+            </div>
+        </fieldset>
 
 
         <!--Names of the owner, names of the cats and breed-->
@@ -197,10 +201,10 @@
 
             </datalist>
 
-   
-            <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented">
-            <label class="form-check-label" for="breeddocumented">Is the breed documented?</label>
-
+            <div class="form-check mb-3">
+                <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented">
+                <label class="form-check-label" for="breeddocumented">Is the breed documented?</label>
+            </div>
  
    
 
@@ -222,11 +226,12 @@
                 <option>Birman</option>
                 <option>Dachowiec</option>
             </datalist>
-
-            <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented2">
-            <label class="form-check-label" for="breeddocumented2">Is the breed documented?</label>
-
-        </fieldset class="container border-bottom pb-5 mb-5">
+            
+            <div class="form-check mb-3">
+                <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented2">
+                <label class="form-check-label" for="breeddocumented2">Is the breed documented?</label>
+            </div>
+        </fieldset>
 
 
 
@@ -393,7 +398,7 @@
                 </optgroup>
             </select>
 
-        </fieldset class="container border-bottom pb-5 mb-5">
+        </fieldset>
 
 
 
@@ -424,7 +429,7 @@
     <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
 
 
-</fieldset class="container border-bottom pb-5 mb-5">
+</fieldset>
 
        <!--Choose your package-->
 
@@ -436,7 +441,7 @@
     <legend>Choose your package</legend>
 
 
-</fieldset class="container border-bottom pb-5 mb-5">
+</fieldset>
 
 <!--Dietary requirements-->
 
@@ -449,29 +454,29 @@
         
 <label class="form-label" for=""></label>
 <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
-</fieldset class="container border-bottom pb-5 mb-5">
+</fieldset>
 
 <fieldset class="container border-bottom pb-5 mb-5">
     <legend>Additional services</legend>
-</fieldset class="container border-bottom pb-5 mb-5">
+</fieldset>
 
 <fieldset class="container border-bottom pb-5 mb-5">
     <legend>Included in this Package</legend>
-</fieldset class="container border-bottom pb-5 mb-5">
+</fieldset>
 
 
 
 <!--button to post-->
 <fieldset class="container border-bottom pb-5 mb-5">
     <legend>Submit</legend>
-    <div>
+    <div class="form-check mb-3">
         <input class="form-check-input bg-secondary mb-3"id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
         <label class="form-check-label" for="gdpr">I agree to have my personal details processed in accordance with GDPR regulations</label>
     </div>
 
     <button type="submit">Click here to submit the booking form</button>
     <button type="reset">Reset the form</button>
-</fieldset class="container border-bottom pb-5 mb-5">
+</fieldset>
 
 
 
