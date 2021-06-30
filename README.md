@@ -49,7 +49,7 @@ This website was created to complete the first Milestone Project for the Code In
 - The name of the website reffers to cats and is clearly visible in top left corner in mobile view and pc
 - the home page describes history of the owners' of the cattery
 - the prices page is accessible via nav bar button and prices are written in visualy simple cards form
-- the services are accessible via nav bar button
+- the services are accessible via nav bar link
 - the photos of the rooms are available to view on the page rooms.html
 - the page services describes that the cattery is accomodating all healthcare and diet requirements
 - the contact page shows the google maps and full address of the cattery
@@ -147,7 +147,8 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 
 ### Removed Features
 
-Contact page was going to include a map and link to social media. Unfortunately those features had to be removed due to lack of time.
+- Contact page was going to include a map and link to social media. Unfortunately those features had to be removed due to lack of time.
+- Oryginaly the Big images at the top of each page were going to be full width with an arrow pointing down to slide down the page. Unfortunately some of the pictures' quality did not allow them to be display in this way. Used Thumbnail instead. 
 
 ## Scalability
 
