@@ -166,9 +166,10 @@ The grid used in rooms and services allows the user to view the images in 1, 2 o
 ### Languages and Frameworks
 - HTML
 - CSS
+- Bootstrap
 
 ### Tools used
-- Bootstrap
+- Bootstrap examples zip package
 - Google Chrome dev tools and Unicorn Revealer for debugging
 - Google Lighthouse for audits
 - Stack Overflow 
@@ -177,29 +178,21 @@ The grid used in rooms and services allows the user to view the images in 1, 2 o
 
 ## Acknowledgements
 
-accessibility of icons for screen readers users 
+- accessibility of icons for screen readers users 
 https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/accessibility
 
-pattern for emails - input form validation for emails and other uses of pattern attribute
-https://www.w3schools.com/tags/att_input_pattern.asp
+- pattern for emails - input form validation for emails and other uses of pattern attribute https://www.w3schools.com/tags/att_input_pattern.asp
 
-UK counties drop down list
-
+- UK counties drop down list 
 https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
 
-color inspiration
-https://www.onekingslane.com/live-love-home/english-cottage-style/
+- Color  https://coolors.co/
 
-Color palette
-https://coolors.co/
+- compressing of the photos https://tinypng.com/
 
-compressing of the photos
-https://tinypng.com/
+- created logo https://www.canva.com/
 
-created logo
-https://www.canva.com/
-
-Readme file followed the pattern in the below mentioned repositories and video
+- Readme file followed the pattern in the below mentioned repositories and video
 
 https://us02web.zoom.us/rec/play/zZzrdRcJ1Gz9isoaRTUcHNhB1VEqzkhcI4kkOUXEbTGTShtMaNQEpxYE7dW214K5X2OWveSRPLL-oWtA.5EMQT2YvoO2ZLIox?autoplay=true
 
@@ -210,5 +203,6 @@ https://github.com/LigaMoon/Boredom-guide#technologies
 https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md
 
 
-General help on how to use bootstrap's navbar's images, responsivness and styling, shared during Hackaton and applied in this project
-Dave Horrocks & Brian Smyth
+- Dave Horrocks & Brian Smyth - for general help on how to use bootstrap's navbar's images, responsivness and styling, shared during Hackaton and applied in this project
+
+- Felippe Souza Alarcon - for mentoring, guidance, technical advice and moral support
