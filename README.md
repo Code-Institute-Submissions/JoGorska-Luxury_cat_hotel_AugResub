@@ -144,8 +144,17 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 - at later stages arrow was removed from the page
 - once the page was deployed it was not displaying correctly as if not connecting to stylesheet and not seeing the images in the folder. Replaced the absolute filepaths with relative filepaths, the same done with all links which has solved the problem
 - main header in cards in prices was displaying on top of the other text. Checked css - it seemed that I was trying to edit the bootstrap's clases for cards. Changed my classes to add my- at the beggining of each class. This has solved the problem. 
-- validator found error with double ID in index.html - ID removed 
+
+
+
+#### Bugs found during testing
+
 - jigsaw validation did not find any errors
+- html validator found error with double ID in index.html - ID removed 
+- errors in forms in booking.html with id not matching for and with missing spaces in attributes
+
+- 
+
 
 ### Removed Features
 
