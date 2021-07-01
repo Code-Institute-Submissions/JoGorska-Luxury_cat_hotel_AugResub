@@ -147,13 +147,12 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 
 
 
-#### Bugs found during testing
+### Bugs found during testing
 
 - jigsaw validation did not find any errors
 - html validator found error with double ID in index.html - ID removed 
 - errors in forms in booking.html with id not matching for and with missing spaces in attributes
-
-- 
+- missing closing tag for div element in rooms 
 
 
 ### Removed Features
