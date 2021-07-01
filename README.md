@@ -176,7 +176,7 @@ The grid used in rooms and services allows the user to view the images in 1, 2 o
 
 
 
-## Acknowledgements
+## Acknowledgements and special thanks to:
 
 - accessibility of icons for screen readers users 
 https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/accessibility
@@ -207,5 +207,5 @@ https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md
 
 - Felippe Souza Alarcon - for mentoring, guidance, technical advice and moral support
 
-- cat Tiger called Ginger for inspiration
+- cat Tiger for inspiration
 
