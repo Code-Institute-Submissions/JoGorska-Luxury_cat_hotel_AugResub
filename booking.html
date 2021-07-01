@@ -111,7 +111,7 @@
             <label class="form-label" for="BookIN">Check in date</label>
             <input class="form-control bg-secondary mb-3" id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance" required>
             <label class="form-label" for="BookOUT">Check out date</label>
-            <input class="form-control bg-secondary mb3" id="BookOUT" type="date"name="Book out"min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
+            <input class="form-control bg-secondary mb3" id="BookOUT" type="date" name="Book out" min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
    
         </fieldset>
 
@@ -120,7 +120,6 @@
 
             <label class="form-label" for="room">Choose room from drop down list</label>
             <select class="form-select bg-secondary mb-3" name="room" id="room">
-                <option></option>
                 <option value="Kew Gardens">Kew Gardens</option>
                 <option value="Oxford Suite">Oxford Suite</option>
                 <option value="London Suite">London Suite</option>
@@ -155,7 +154,7 @@
             <label class="form-label" for="name">Name</label>
             <input class="form-control bg-secondary mb-3" type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
  
-            <label class="form-label" for="Surname">Surname</label>
+            <label class="form-label" for="surname">Surname</label>
             <input class="form-control bg-secondary mb-3" type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
 
             <label class="form-label" for="cat1">Your cat's name</label>
@@ -224,10 +223,10 @@
             <legend>Address and contact details</legend>
 
             <label class="form-label" for="email">Email address</label>
-            <input class="form-control bg-secondary mb-3" type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+            <input class="form-control bg-secondary mb-3" type="email" id="email" name="email" title="Please enter a valid email address for example my@personal.uk" required>
 
             <label class="form-label" for="email2">Confirm Email address</label>
-            <input class="form-control bg-secondary mb-3" type="email2" id="email2" name="email2" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+            <input class="form-control bg-secondary mb-3" type="email" id="email2" name="email2" title="Please enter a valid email address for example my@personal.uk" required>
 
 
 
@@ -238,17 +237,17 @@
             <input class="form-control bg-secondary mb-3" type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
 
             <label class="form-label" for="house-name-number">House Number / Name</label>
-            <input class="form-control bg-secondary mb-3" type="text" id="house-name-number" name="house-name-number" min="2" max="160" title="House Number or Name" required>
+            <input class="form-control bg-secondary mb-3" type="text" id="house-name-number" name="house-name-number" title="House Number or Name" required>
 
 
             <label class="form-label" for="street">Street</label>
-            <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" min="2" max="160" title="Street" requried>
+            <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" title="Street" requried>
 
             <!--
                 pattern for postcode from stackoverflow
             https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
             -->
-            <label class="form-label" for="Postcode">Postcode</label>
+            <label class="form-label" for="postcode">Postcode</label>
             <input class="form-control bg-secondary mb-3" type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
 
             <label class="form-label" for="town">Town</label>
@@ -263,10 +262,9 @@
             there is no atribude selected so why it is pre selected? placeholder doesn't work.
             -->
 
-            <label class="form-label" for="conty">County</label>
+            <label class="form-label" for="county">County</label>
             <select class="form-select bg-secondary mb-3" name="county" id="county" required>
                 <optgroup label="England">
-                    <option></option>
                     <option>Bedfordshire</option>
                     <option>Berkshire</option>
                     <option>Bristol</option>
@@ -375,7 +373,7 @@
                     <option>Londonderry</option>
                     <option>Tyrone</option>
                 </optgroup>
-            </select>
+              </select>
 
         </fieldset>
 
@@ -454,7 +452,6 @@ additional one to one time per week
       <div class="col-6">
         <label class="form-label" for="feeding-am">Feeding time in the morning</label>
         <select class="form-select bg-secondary mb-3" name="feeding-am" id="feeding-am">
-          <option value=""></option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -472,7 +469,6 @@ additional one to one time per week
       <div class="col-6">
         <label class="form-label" for="feeding-pm">Feeding time in the afternoon or evening</label>
         <select class="form-select bg-secondary mb-3" name="feeding-pm" id="feeding-pm">
-          <option value=""></option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -520,7 +516,7 @@ additional one to one time per week
 <fieldset class="container border-bottom pb-5 mb-5">
     <legend>Submit</legend>
     <div class="form-check mb-3">
-        <input class="form-check-input bg-secondary mb-3"id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
+        <input class="form-check-input bg-secondary mb-3" id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
         <label class="form-check-label" for="gdpr">I agree to have my personal details processed in accordance with GDPR regulations</label>
     </div>
 
