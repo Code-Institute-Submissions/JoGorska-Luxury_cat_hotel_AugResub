@@ -97,22 +97,7 @@
       </header>
   </div>
   
- 
 
-        <!--
-        Form validation checklist
-        - is this field required?
-        - label for accesibility
-        - title to explain what the field requires
-        - label needs id
-        - name so data is stored in database under name
-        - min max value is it needed
-        - numbers / letters - if only this is required
-        - special characters in names ' - ' and emails
-         pattern attribute format ==>> [A-Za-z1-9]+[@]+[A-Za-z1-9]+[.]+[A-Za-z1-9]{2,160}
-        - limit the number of characters?? 
-
-        -->
 <!--The form starts here-->
 
     <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
@@ -437,51 +422,95 @@
 
 <fieldset class="container border-bottom pb-5 mb-5">
     <legend>Choose your package</legend>
+    
   <div class="row">
     <div class="col-6 form-check mb-3 mt-3">
-      <input class="form-check-input bg-secondary mb-3" id="basic-yes" type="radio" name="basic-yes" value="yes">
+      <input class="form-check-input bg-secondary mb-3" id="basic-yes" type="radio" name="holiday-package" value="basic">
       <label class="form-check-label ps-3" for="basic-yes">Basic Package</label>
     </div>
 
     <div class="col-6 form-check mb-3 mt-3">
-      <input class="form-check-input bg-secondary mb-3" id="all-inc-yes" type="radio" name="all-incl-yes" value="yes">
+      <input class="form-check-input bg-secondary mb-3" id="all-inc-yes" type="radio" name="holiday-package" value="all-inclusive" checked>
       <label class="form-check-label ps-3" for="all-inc-yes">All Inclusive</label>
     </div>
   </div>
 
 </fieldset>
 
-<!--Special Services-->
+<!--Special Services
+feeding time am
+feeding time pm
+welcome pack
+cat grooming service
+additional one to one time per week
+-->
 
 <fieldset class="container border-bottom pb-5 mb-5">
     <legend>Special Services</legend>
 
+    <!--feeding time-->
+    
+    <div class="row">
+      <div class="col-6">
+        <label class="form-label" for="feeding-am">Feeding time in the morning</label>
+        <select class="form-select bg-secondary mb-3" name="feeding-am" id="feeding-am">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="10">11</option>
+          <option value="10">12</option>
+        </select>
+      </div>
+      <div class="col-6">
+        <label class="form-label" for="feeding-pm">Feeding time in the afternoon or evening</label>
+        <select class="form-select bg-secondary mb-3" name="feeding-pm" id="feeding-pm">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="10">11</option>
+          <option value="10">12</option>
+        </select>
+      </div>
+    </div>
 
-<label class="form-label" for=""></label>
-<input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
-        
-<label class="form-label" for=""></label>
-<input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
-</fieldset>
+    <div class="row pt-5">
+      <div class="col-6">
+        <div class="form-check mb-3">
+          <input class="form-check-input bg-secondary mb-3" id="grooming" type="checkbox" name="grooming" value="yes">
+          <label class="form-check-label" for="grooming">Cat grooming service (this incurs additional payment of 30£ if you are reserving basic package)</label>
+        </div>
+      </div>
 
-<!--Additional Services-->
-<fieldset class="container border-bottom pb-5 mb-5">
-    <legend>Additional services</legend>
-           
+      <div class="col-6">
+        <div class="form-check mb-3">
+          <input class="form-check-input bg-secondary mb-3" id="welcome-pack" type="checkbox" name="welcome-pack" value="yes">
+          <label class="form-check-label" for="welcome-pack">Welcome Pack "The Journey" (this incurs additional payment of 30£ if you are reserving basic package)</label>
+        </div>
+      </div>
+    </div>
 
-           <label class="form-label" for=""></label>
-           <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
-           
-   
+  
 
-</fieldset>
+  <label class="form-label" for="1to1">Additional One to One time per week (20£ per hour)</label>
+  <input class="form-control bg-secondary mb-3" type="number" id="1to1" name="1to1" min="1" max="99" title="input numbers only 1-99">
+          
 
-
-<!--Included in this package-->
-<fieldset class="container border-bottom pb-5 mb-5">
-  <legend>Included in this Package</legend>
-    <label class="form-label" for=""></label>
-    <input class="form-control bg-secondary mb-3" type="text" id="" name="" min="" max="" pattern="" title="">
 </fieldset>
 
 
