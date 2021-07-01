@@ -125,7 +125,7 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 - Google chrome dev tools
 - [Unicorn revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Chrome plugin
 
-- [Lighthouse](toohttps://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to audit the site (efficiency)
+- [Lighthouse](toohttps://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to audit the site (efficiency) Report for [mobile](assets/images/04-lighthouse-mobile.PNG) and for [desktop](assets/images/04-lighthouse-desktop.PNG) are available to view.
 
 - [Validator](https://validator.w3.org/)
 
