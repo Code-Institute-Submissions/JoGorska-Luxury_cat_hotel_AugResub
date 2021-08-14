@@ -138,23 +138,34 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 ### Issues and Bugsad
 
 - style.css not accepting images to card background - as the file name were containing white space
+
 - rooms.html very wide white space on both sides (left and right) of the grid in max width view. Used Unicorn revealer to find which element is causing it. Found that .container has set max width 960px by bootstrap. Used chrome dev tools to test solution - set max-width to 100vw. This has removed the white space. Tested on other view port sizes. No white space left. Added class to adjust max-width.
+
 - some bootstraps classes didn't seem to be working on some of the pages. I have realised that I have put link for Bootstrap 4 in some of the pages, while other pages were using Bootstrap 5. I changed all pages to Bootstrap 5 as it was dealing with the grid of the images in rooms very well. 
+
 - defauld bootstrap grid in rooms was planned to change  from 1 column to 3 columns depending on the width of viewport. This seemed inapropriate for tablets or big mobile phones held sideways. Tested on my Samsung Galaxy Note. Adjusted bootstrap classess and html structure to allow 1 or 2 or 3 columns depending of view port width. 
+
 - toggler in nav bar not working, menu wasn't dropping down, replaced bootstrap css stylesheet link and added js link, which solved the problem
-- mobile phone menu was covered by arrow - from the image that is pointing down. Added high z-index to nav-bar which has solved the problem. 
+
+- mobile phone menu was covered by arrow - from the image that is pointing down. Added high z-index to nav-bar which has solved the problem. further in the developement arrow was removed completly
+
 - at later stages arrow was removed from the page
+
 - once the page was deployed it was not displaying correctly as if not connecting to stylesheet and not seeing the images in the folder. Replaced the absolute filepaths with relative filepaths, the same done with all links which has solved the problem
+
 - main header in cards in prices was displaying on top of the other text. Checked css - it seemed that I was trying to edit the bootstrap's clases for cards. Changed my classes to add my- at the beggining of each class. This has solved the problem. 
 
 
 
 ### Bugs found during testing
 
-- jigsaw validation did not find any errors
+- jigsaw validation did not find any errors, but it found a warning " is an unknown vendor extension" in the code that I copied from bootstrap examples. I do not feel entitled to edit or correct this warning. 
+
 - html validator found error with double ID in index.html - ID removed 
 - errors in forms in booking.html with id not matching for and with missing spaces in attributes
+- further errors in booking and contact html forms regarding "required" and "min" and "max" - all removed.
 - missing closing tag for div element in rooms 
+- inconsistent indentation caused by copying code from bootstrap and different sources unified by using [html formater](https://www.freeformatter.com/html-formatter.html)
 
 
 ### Removed Features
@@ -165,6 +176,8 @@ Font family was chosen from popular styles of google fonts. The style of the hea
 ## Scalability
 
 The page was designed with mobile phone users in mind. The images and tables are responsive. 
+
+Special care was taken when adding logo image to nav bar. Small mobiles users have now a smaller logo, that is more suitable for their devices.
 
 ![screenshot - showcase showing page About Us on various devices](assets/images/4-showcase-index.PNG)
 
@@ -181,10 +194,14 @@ The grid used in rooms and services allows the user to view the images in 1, 2 o
 - Bootstrap
 
 ### Tools used
-- Bootstrap examples zip package
-- Google Chrome dev tools and Unicorn Revealer for debugging
+- [Bootstrap examples](https://getbootstrap.com/docs/5.0/examples/) zip package
+- Google Chrome dev tools for debugging
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) for debugging
 - Google Lighthouse for audits
-- Stack Overflow 
+- [jigsaw validation](https://jigsaw.w3.org/css-validator/validator)
+- [html validator](https://www.freeformatter.com/html-validator.html)
+- [html formatter](https://www.freeformatter.com/html-formatter.html)
+- [Stack Overflow](https://stackoverflow.com/) 
 - [Favicon generator](https://realfavicongenerator.net/)
 
 

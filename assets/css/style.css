@@ -55,8 +55,19 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     
 }
 
+  /*additional css for forms*/
 
-/*additional css for prices*/
+  .my-input-100 {
+    display: inline-block;
+    width: 100%;
+}
+
+.my-input-50 {
+    display: inline-block;
+    width: 50%;
+}
+
+/*additional css for prices - copied from bootstrap examples for bootstrap 5*/
 
 
 .bd-placeholder-img {
@@ -73,15 +84,5 @@ https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootst
     }
   }
 
-  /*additional css for forms*/
 
-.my-input-100 {
-    display: inline-block;
-    width: 100%;
-}
-
-.my-input-50 {
-    display: inline-block;
-    width: 50%;
-}
 
