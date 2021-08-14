@@ -1,445 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
-    <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
-    <meta name="author" content="JoGorska">
-
-   <!--Bootstrap css-->
-
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-   <!--google fonts links-->
-
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
-
-   <!--fontawsome-->
-
-   <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
-       
-   <!--stylesheet-->
-   
-   <link rel="stylesheet" href="assets/css/style.css">
-   <title>Luxury Cat Hotel</title>
-</head>
-
-
-<body class="bg-dark text-light font-family-plain">
-
-
-<!--Bootstrap 5 (!) Nav bar here-->
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
-      <picture>
-        <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
-        <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
-      </picture>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="rooms.html">Rooms</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="prices.html">Prices</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="booking.html">Booking</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-
-
-<div class="container">
-    <header>
-
-        <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
-          <h1 id="services" class="display-4 fw-normal border-top p-5 font-family-header">The Services we Provide</h1>
-          <p class="fs-5 text-muted pb-5 border-bottom">The range of services we provide is the widest that you can find anywhere. Our highly trained staff makes sure that all needs of your cat are met and more...</p>
-        </div>
-    
-      </header>
-</div>
-
-<!--flex container starts here-->
-<div class="container-flex overflow-hidden text-center">
-<div class="row gx-5 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 pb-5">
-   
-    <!--this is one flex item (1)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-01-jordan-whitt-lvh5L46VWuA-unsplash.jpg" alt="cat on a fluffy pillow in front of a window"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>All Health Conditions</h2>
-        </header>
-        <div class="container card-body">
-            <p class="card-description">We know how hard it is hard to find a cattery that would accomodate the complex health conditions of some of the cats. We want to reasure you that your cat will be safe with us and he will get all care he needs.</p>
-        </div>
-
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-    
-
-    <!--this is one flex item (2)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-02-hannah-reding-IwYAo4G7Kr8-unsplash.jpg" alt="cat interacting with a goldfish inside a fish tank"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Special Dietary Requirements</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">We accomodate all dietary requirements including the requirements prescribed by the doctor as well as your cat's prefferences. This can include special cat food or just cooked or raw food. We epmply chef that prepares each meal individualy. We know how stressed cats loose apetite and we will make sure we do everything that we can so their maintain healthy diet.</p>
-        </div> 
-
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-    
-
-    <!--this is one flex item (3)-->
-    
-    <article class="column overflow-hidden font-family-plain">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-03-flaunter-7qTYBEEEvZc-unsplash.jpg" alt="room with old style furniture, chandolier, patterned wallpaper and flowers on the table"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Home like enviroment</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">We do not accpet the strategy that most catteries have - to keep cats in cages. Cats are used to living at home and take advantage of soft furnishing and different zones in rooms.</p>
-        </div>
-        
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-    
-
-
-
-    <!--this is one flex item (4)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-04-kristina-tibbitts-kOBjin8QVbs-unsplash.jpg" alt="cat watching squirrel through the window"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Wildfile feeders</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">We know how much cats love watching their "live" televisioin outdoors. Each room has a view on a bird feeder. We often have other wildlife visitors as well.</p>
-        </div>
-        
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-  
-
-<!--this is one flex item (5)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-05-josefin-HZLttBYRiuA-unsplash.jpg" alt="lush greenery in an old style conservatory"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Secured outdoor space</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">For those cats that love outdoor space we have prepared secured outdoor area to explore.</p>
-        </div>
-        
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-
-
-    <!--this is one flex item (6)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-06-scott-longerbeam-WVpMDANVUtQ-unsplash.jpg" alt="two cats sitting on the stairs and one sitting on the side board, all staring at the viewer"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Security</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">We guarantee high level of site security, that includes CCTV cameras. We created 3 stage zones when entering cat's accomodation, when cats escapes from zone 1 we have 2 more zones as additional layer of security.</p>
-        </div>
-        
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-
-
-    <!--this is one flex item (7)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-07-manja-vitolic-SM60_qt-r6k-unsplash.jpg" alt="white spotted cat on a white cubpoard and white wall behind him"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Access to live cameras</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">We have placed many cameras in each room so the owners can observe their cats any time of the day. You will be given a special login details to the room's camera system, which you can access from any mobile device or a computer.</p>
-        </div>
-        
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-    
-
-    <!--this is one flex item (8)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-08-gaelle-marcel-awYrEHKWEk4-unsplash.jpg" alt="ginger cat lying on a blanket on a bed, looking away from the viewer"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Vet on Call</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">We employ a team a Vets and veterinary nurses, that are on call 24/7. They maintain health care catalogue for each of our guests and create special healthcare plans for the guests that require medical treatment or special support during their stay.</p>
-        </div>
-        
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-    
-
-    <!--this is one flex item (9)-->
-    
-    <article class="column overflow-hidden">
-        <figure class="figure-card"><img class="my-img-card" src="assets/images/03-09-de-an-sun-DAMuaES38y8-unsplash.jpg" alt="cat sitting on the floor in front of patio door in a dark room"><figcaption></figcaption></figure>
-        <header class="card-header font-family-header">
-            <h2>Acclimatisation</h2>
-        </header>
-        <div class="card-body">
-            <p class="card-description">Cats usually are not happy to be taken out of their home. To help them acclimatise to new home we release pheromones in each room. This calms them down and lets them to get to know the enviroment.</p>
-        </div>
-        
-        <footer class="container card-footer">
-            <div class="row mb-3">
-                <div class="col">      
-                  <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-                </div>
-                <div class="col">
-                  <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-                </div>  
-              </div> 
-        </footer>
-    </article>
-
-    <!--this is one flex item (10)-->
-    
-    <article class="column overflow-hidden">
-      <figure class="figure-card"><img class="my-img-card" src="assets/images/03-10-danae-callister-SoAGN0mnVp4-unsplash.jpg" alt="long haired cat sitting amongst toys on a chair"><figcaption></figcaption></figure>
-      <header class="card-header font-family-header">
-          <h2>Grooming service</h2>
-      </header>
-      <div class="card-body">
-          <p class="card-description">We have on site cat grooming service. The stylists are trained in all breeds, they will also follow any special requirements or instructions you might have.</p>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
+      <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
+      <meta name="author" content="JoGorska">
+      <!--Bootstrap css-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!--google fonts links-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
+      <!--fontawsome-->
+      <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
+      <!--stylesheet-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Luxury Cat Hotel</title>
+   </head>
+   <body class="bg-dark text-light font-family-plain">
+      <!--Bootstrap 5 (!) Nav bar here-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+               <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
+               <picture>
+                  <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
+                  <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
+               </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="rooms.html">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="prices.html">Prices</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="booking.html">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container">
+         <header>
+            <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
+               <h1 id="services" class="display-4 fw-normal border-top p-5 font-family-header">The Services we Provide</h1>
+               <p class="fs-5 text-muted pb-5 border-bottom">The range of services we provide is the widest that you can find anywhere. Our highly trained staff makes sure that all needs of your cat are met and more...</p>
+            </div>
+         </header>
       </div>
-      
-      <footer class="container card-footer">
-          <div class="row mb-3">
-              <div class="col">      
-                <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-              </div>
-              <div class="col">
-                <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-              </div>  
-            </div> 
-      </footer>
-  </article>
-
-
-
-    <!--this is one flex item (11)-->
-    
-    <article class="column overflow-hidden">
-      <figure class="figure-card"><img class="my-img-card" src="assets/images/03-11-fotografierende-IV35XINyijo-unsplash.jpg" alt="cat holding a toy-mouse in his mouth and staring at the viewer"><figcaption></figcaption></figure>
-      <header class="card-header font-family-header">
-          <h2>Feeding time</h2>
-      </header>
-      <div class="card-body">
-          <p class="card-description">We know that cats live according to their clock. We want to be as flexible as our guests require. We ask you to tell us the time when your cat is fed, so we continue with his routine while he is with us.</p>
+      <!--flex container starts here-->
+      <div class="container-flex overflow-hidden text-center">
+         <div class="row gx-5 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 pb-5">
+            <!--this is one flex item (1)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-01-jordan-whitt-lvh5L46VWuA-unsplash.jpg" alt="cat on a fluffy pillow in front of a window">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>All Health Conditions</h2>
+               </header>
+               <div class="container card-body">
+                  <p class="card-description">We know how hard it is hard to find a cattery that would accomodate the complex health conditions of some of the cats. We want to reasure you that your cat will be safe with us and he will get all care he needs.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (2)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-02-hannah-reding-IwYAo4G7Kr8-unsplash.jpg" alt="cat interacting with a goldfish inside a fish tank">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Special Dietary Requirements</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We accomodate all dietary requirements including the requirements prescribed by the doctor as well as your cat's prefferences. This can include special cat food or just cooked or raw food. We epmply chef that prepares each meal individualy. We know how stressed cats loose apetite and we will make sure we do everything that we can so their maintain healthy diet.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (3)-->
+            <article class="column overflow-hidden font-family-plain">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-03-flaunter-7qTYBEEEvZc-unsplash.jpg" alt="room with old style furniture, chandolier, patterned wallpaper and flowers on the table">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Home like enviroment</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We do not accpet the strategy that most catteries have - to keep cats in cages. Cats are used to living at home and take advantage of soft furnishing and different zones in rooms.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (4)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-04-kristina-tibbitts-kOBjin8QVbs-unsplash.jpg" alt="cat watching squirrel through the window">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Wildfile feeders</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We know how much cats love watching their "live" televisioin outdoors. Each room has a view on a bird feeder. We often have other wildlife visitors as well.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (5)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-05-josefin-HZLttBYRiuA-unsplash.jpg" alt="lush greenery in an old style conservatory">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Secured outdoor space</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">For those cats that love outdoor space we have prepared secured outdoor area to explore.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (6)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-06-scott-longerbeam-WVpMDANVUtQ-unsplash.jpg" alt="two cats sitting on the stairs and one sitting on the side board, all staring at the viewer">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Security</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We guarantee high level of site security, that includes CCTV cameras. We created 3 stage zones when entering cat's accomodation, when cats escapes from zone 1 we have 2 more zones as additional layer of security.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (7)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-07-manja-vitolic-SM60_qt-r6k-unsplash.jpg" alt="white spotted cat on a white cubpoard and white wall behind him">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Access to live cameras</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We have placed many cameras in each room so the owners can observe their cats any time of the day. You will be given a special login details to the room's camera system, which you can access from any mobile device or a computer.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (8)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-08-gaelle-marcel-awYrEHKWEk4-unsplash.jpg" alt="ginger cat lying on a blanket on a bed, looking away from the viewer">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Vet on Call</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We employ a team a Vets and veterinary nurses, that are on call 24/7. They maintain health care catalogue for each of our guests and create special healthcare plans for the guests that require medical treatment or special support during their stay.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (9)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-09-de-an-sun-DAMuaES38y8-unsplash.jpg" alt="cat sitting on the floor in front of patio door in a dark room">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Acclimatisation</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">Cats usually are not happy to be taken out of their home. To help them acclimatise to new home we release pheromones in each room. This calms them down and lets them to get to know the enviroment.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (10)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-10-danae-callister-SoAGN0mnVp4-unsplash.jpg" alt="long haired cat sitting amongst toys on a chair">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Grooming service</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We have on site cat grooming service. The stylists are trained in all breeds, they will also follow any special requirements or instructions you might have.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (11)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-11-fotografierende-IV35XINyijo-unsplash.jpg" alt="cat holding a toy-mouse in his mouth and staring at the viewer">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Feeding time</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">We know that cats live according to their clock. We want to be as flexible as our guests require. We ask you to tell us the time when your cat is fed, so we continue with his routine while he is with us.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (12)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-12-melanie-andersen-JwTIclGB5nk-unsplash.jpg" alt="black and white cat sitting on top of a box style shelving, that is attached to the wall">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Welcome Pack</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">The journey from your home to our Castle can be very stressful for the cat. We have prepared a welcome pack that include a booklet with plenty of advices about preparations for the journey and herbal remedy that allows the most sensitive cats to survive the car journey.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (13)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-13-willian-justen-de-vasconcellos-1hBWrLIDSCc-unsplash.jpg" alt="kitten climbing up a scratch post, looking at the toy mouse that is in the air above him">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>One to One time</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">Cats are social animals and need human interactions. We asure that even the basic package guests have contact with our staff. The One to one time might include play, petting or just being there as a company. The all inclusive package includes 7 hours of One to One time, per week and the basic package 1 hour. You can increase the One to One time 20£ per hour.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+            <!--this is one flex item (14)-->
+            <article class="column overflow-hidden">
+               <figure class="figure-card">
+                  <img class="my-img-card" src="assets/images/03-14-huy-phan-Lu4EryiV1Ec-unsplash.jpg" alt="black and white cat on a bed, looking away from the viewer. Some plants in the far end of the room.">
+                  <figcaption></figcaption>
+               </figure>
+               <header class="card-header font-family-header">
+                  <h2>Daily updates</h2>
+               </header>
+               <div class="card-body">
+                  <p class="card-description">Missing your cat is a part of your holiday. We will keep you updated about how he is doing with us. The all inclusive package cat's owners will receive a short video and the basic package cat's owners will receive a short text.</p>
+               </div>
+               <footer class="container card-footer">
+                  <div class="row mb-3">
+                     <div class="col">      
+                        <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
+                     </div>
+                     <div class="col">
+                        <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
+                     </div>
+                  </div>
+               </footer>
+            </article>
+         </div>
       </div>
-      
-      <footer class="container card-footer">
-          <div class="row mb-3">
-              <div class="col">      
-                <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-              </div>
-              <div class="col">
-                <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-              </div>  
-            </div> 
+      <!--sticky footer-->
+      <footer class="my-footer py-3 bg-dark mt-5">
+         <div class="container">
+            <span class="text-muted">Copyright Joanna Gorska 2021</span>
+         </div>
       </footer>
-  </article>
-
-
-    <!--this is one flex item (12)-->
-    
-    <article class="column overflow-hidden">
-      <figure class="figure-card"><img class="my-img-card" src="assets/images/03-12-melanie-andersen-JwTIclGB5nk-unsplash.jpg" alt="black and white cat sitting on top of a box style shelving, that is attached to the wall"><figcaption></figcaption></figure>
-      <header class="card-header font-family-header">
-          <h2>Welcome Pack</h2>
-      </header>
-      <div class="card-body">
-          <p class="card-description">The journey from your home to our Castle can be very stressful for the cat. We have prepared a welcome pack that include a booklet with plenty of advices about preparations for the journey and herbal remedy that allows the most sensitive cats to survive the car journey.</p>
-      </div>
-      
-      <footer class="container card-footer">
-          <div class="row mb-3">
-              <div class="col">      
-                <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-              </div>
-              <div class="col">
-                <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-              </div>  
-            </div> 
-      </footer>
-  </article>
-
-    <!--this is one flex item (13)-->
-    
-    <article class="column overflow-hidden">
-      <figure class="figure-card"><img class="my-img-card" src="assets/images/03-13-willian-justen-de-vasconcellos-1hBWrLIDSCc-unsplash.jpg" alt="kitten climbing up a scratch post, looking at the toy mouse that is in the air above him"><figcaption></figcaption></figure>
-      <header class="card-header font-family-header">
-          <h2>One to One time</h2>
-      </header>
-      <div class="card-body">
-          <p class="card-description">Cats are social animals and need human interactions. We asure that even the basic package guests have contact with our staff. The One to one time might include play, petting or just being there as a company. The all inclusive package includes 7 hours of One to One time, per week and the basic package 1 hour. You can increase the One to One time 20£ per hour.</p>
-      </div>
-      
-      <footer class="container card-footer">
-          <div class="row mb-3">
-              <div class="col">      
-                <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-              </div>
-              <div class="col">
-                <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-              </div>  
-            </div> 
-      </footer>
-  </article>
-
-    <!--this is one flex item (14)-->
-    
-    <article class="column overflow-hidden">
-      <figure class="figure-card"><img class="my-img-card" src="assets/images/03-14-huy-phan-Lu4EryiV1Ec-unsplash.jpg" alt="black and white cat on a bed, looking away from the viewer. Some plants in the far end of the room."><figcaption></figcaption></figure>
-      <header class="card-header font-family-header">
-          <h2>Daily updates</h2>
-      </header>
-      <div class="card-body">
-          <p class="card-description">Missing your cat is a part of your holiday. We will keep you updated about how he is doing with us. The all inclusive package cat's owners will receive a short video and the basic package cat's owners will receive a short text.</p>
-      </div>
-      
-      <footer class="container card-footer">
-          <div class="row mb-3">
-              <div class="col">      
-                <a class="btn btn-outline-light" href="contact.html" aria-label="go to contact page (opens in same window)">Visit Us</a>
-              </div>
-              <div class="col">
-                <a class="btn btn-outline-secondary" href="booking.html" aria-label="go to page booking (open in same window)">Booking</a>
-              </div>  
-            </div> 
-      </footer>
-  </article>
-
-</div>
-</div>
-
-
-<!--sticky footer-->
-
-
-<footer class="my-footer py-3 bg-dark mt-5">
-  <div class="container">
-    <span class="text-muted">Copyright Joanna Gorska 2021</span>
-  </div>
-</footer>
-
-<!--Bootstrap JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</body>
+      <!--Bootstrap JavaScript-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </body>
 </html>
