@@ -1,177 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
-    <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
-    <meta name="author" content="JoGorska">
-
-    <!--Bootstrap css-->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <!--google fonts links-->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
-
-    <!--fontawsome-->
-
-    <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
-        
-    <!--stylesheet-->
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Luxury Cat Hotel</title>
-</head>
-
-
-<body class="bg-dark text-light font-family-plain">
-
-
-<!--Bootstrap 5 (!) Nav bar here-->
-
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="rooms.html">Rooms</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="prices.html">Prices</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="booking.html">Booking</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
-          </li>
-        </ul>
-
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
+      <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
+      <meta name="author" content="JoGorska">
+      <!--Bootstrap css-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!--google fonts links-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
+      <!--fontawsome-->
+      <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
+      <!--stylesheet-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Luxury Cat Hotel</title>
+   </head>
+   <body class="bg-dark text-light font-family-plain">
+      <!--Bootstrap 5 (!) Nav bar here-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+               <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
+               <picture>
+                  <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
+                  <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
+               </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="rooms.html">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="prices.html">Prices</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="booking.html">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--Main content-->
+      <!--Big front picture-->
+      <div class="container text-center">
+         <picture>
+            <source srcset="assets/images/01-contact-walter-randlehoff-p-08ZLDt9y4-unsplash.jpg" type="image/svg+xml" media="(max-width:600px)">
+            <img class="img-fluid img-thumbnail" src="assets/images/01-contact-walter-randlehoff-p-08ZLDt9y4-unsplash.jpg" alt="Photo of a castle">
+         </picture>
       </div>
-    </div>
-  </nav>
-
-<!--Main content-->
-
-<!--Big front picture-->
-
-
-<div class="container text-center">
- 
-  <picture>
-    <source srcset="assets/images/01-contact-walter-randlehoff-p-08ZLDt9y4-unsplash.jpg" type="image/svg+xml" media="(max-width:600px)">
-    <img class="img-fluid img-thumbnail" src="assets/images/01-contact-walter-randlehoff-p-08ZLDt9y4-unsplash.jpg" alt="Photo of a castle">
-  </picture>
-
-</div>
-
-<!--Big heading-->
-
-<div class="container">
-  <header>
-
-      <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
-        <h1 id="contact" class="display-4 fw-normal border-top p-5 font-family-header">Contact</h1>
-        <p class="fs-5 text-muted pb-5 border-bottom">We look forward to hear from you.</p>
+      <!--Big heading-->
+      <div class="container">
+         <header>
+            <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
+               <h1 id="contact" class="display-4 fw-normal border-top p-5 font-family-header">Contact</h1>
+               <p class="fs-5 text-muted pb-5 border-bottom">We look forward to hear from you.</p>
+            </div>
+         </header>
       </div>
-  
-    </header>
-</div>
-
-
-
-<!--address-->
-<div class="container border p-5 text-center">
-  <h2>Come and visit us - Cath's Cats' Castle</h2>
-  <h5>Luxury Cat Hotel</h5>
-  <div class="pt-3">
-    <p>Blackrock Business Park, 1 Block 1, Carysfort Ave, Blackrock,
-    <br> 
-    Co. Dublin, Ireland
-    <br>
-    tel. +353 1 539 7973
-    Office opening hours Mon-Fri 9-17
-    </p>
-  </div>
-</div>
-
-
-
-
-<!--contact form-->
-
-<div class="container mt-5 pb-5 mb-5">
-
-  <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-
-      <label class="form-label" for="name">Name</label>
-      <input class="form-control bg-secondary mb-3" type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
-    
-    
-      <label class="form-label" for="surname">Surname</label>
-      <input class="form-control bg-secondary mb-3" type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
-    
-    
-      <label class="form-label" for="email">Email address</label>
-      <input class="form-control bg-secondary mb-3" type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
-    
-    
-      <label class="form-label" for="mobileNo">Mobile number</label>
-      <input class="form-control bg-secondary mb-3" type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
-    
-   
-      <label class="form-label" for="enquiry">Your enquiry</label>
-      <input class="form-control bg-secondary mb-3" type="text" id="enquiry" name="enquiry"  required>
-    
-
-    <div class="container-flex text-center p-5">
-      <div class="row">
-        <div class="col-6">      
-          <button type="submit" class="btn btn-outline-secondary btn-sm my-input-50">Send</button>
-        </div>
-        <div class="col-6">
-          <button type="reset" class="btn btn-outline-danger btn-sm my-input-50">Reset</button>
-        </div>  
+      <!--address-->
+      <div class="container border p-5 text-center">
+         <h2>Come and visit us - Cath's Cats' Castle</h2>
+         <h5>Luxury Cat Hotel</h5>
+         <div class="pt-3">
+            <p>Blackrock Business Park, 1 Block 1, Carysfort Ave, Blackrock,
+               <br> 
+               Co. Dublin, Ireland
+               <br>
+               tel. +353 1 539 7973
+               Office opening hours Mon-Fri 9-17
+            </p>
+         </div>
       </div>
-    </div>    
-  </form>
-</div>
-
-
-
-
-<!--sticky footer-->
-
-
-<footer class="my-footer mt-auto py-3 bg-dark">
-  <div class="container">
-    <span class="text-muted">Copyright Joanna Gorska 2021</span>
-  </div>
-</footer>
-
-<!--Bootstrap JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</body>
+      <!--contact form-->
+      <div class="container mt-5 pb-5 mb-5">
+         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control bg-secondary mb-3" type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+            <label class="form-label" for="surname">Surname</label>
+            <input class="form-control bg-secondary mb-3" type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
+            <label class="form-label" for="email">Email address</label>
+            <input class="form-control bg-secondary mb-3" type="email" id="email" name="email" pattern="[a-z0-9._%+-!?]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address for example my@personal.uk" required>
+            <label class="form-label" for="mobileNo">Mobile number</label>
+            <input class="form-control bg-secondary mb-3" type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
+            <label class="form-label" for="enquiry">Your enquiry</label>
+            <input class="form-control bg-secondary mb-3" type="text" id="enquiry" name="enquiry"  required>
+            <div class="container-flex text-center p-5">
+               <div class="row">
+                  <div class="col-6">      
+                     <button type="submit" class="btn btn-outline-secondary btn-sm my-input-50">Send</button>
+                  </div>
+                  <div class="col-6">
+                     <button type="reset" class="btn btn-outline-danger btn-sm my-input-50">Reset</button>
+                  </div>
+               </div>
+            </div>
+         </form>
+      </div>
+      <!--sticky footer-->
+      <footer class="my-footer mt-auto py-3 bg-dark">
+         <div class="container">
+            <span class="text-muted">Copyright Joanna Gorska 2021</span>
+         </div>
+      </footer>
+      <!--Bootstrap JavaScript-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </body>
 </html>
-
-
-
-

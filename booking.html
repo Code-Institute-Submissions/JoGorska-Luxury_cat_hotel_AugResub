@@ -1,553 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
-    <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
-    <meta name="author" content="JoGorska">
-
-  <!--Bootstrap css-->
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
-  <!--google fonts links-->
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
-
-  <!--fontawsome-->
-
-  <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
-      
-  <!--stylesheet-->
-  
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Luxury Cat Hotel</title>
-</head>
-
-
-<body class="bg-dark text-white font-family-plain">
-
-
-<!--Bootstrap 5 (!) Nav bar here-->
-
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="rooms.html">Rooms</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="prices.html">Prices</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#booking">Booking</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-<!--Main content-->
-
-<!--Big picture-->
-
-<div class="container text-center">
- 
-    <picture>
-      <source srcset="assets/images/01-booking-anete-lusina-EV0IwJzQjE8-unsplash.jpg" type="image/svg+xml" media="(max-width:600px)">
-      <img class="img-fluid img-thumbnail" src="assets/images/01-booking-anete-lusina-EV0IwJzQjE8-unsplash.jpg" alt="Photo of a castle">
-    </picture>
-  
-  </div>
-  
-
-
-
-<!--Big heading-->
-
-<div class="container">
-    <header>
-  
-        <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
-          <h1 id="booking" class="display-4 fw-normal border-top p-5 font-family-header">Booking Form</h1>
-          <p class="fs-5 text-muted pb-5 border-bottom">It is very important for us to accomodate every need of your cat. Please take your time with filling in the form.</p>
-        </div>
-    
-      </header>
-  </div>
-  
-
-<!--The form starts here-->
-
-    <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-
-        <!--Fill in proposed Date and room-->
-
-        <fieldset class="container border-bottom pb-5 mb-5">
- 
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
+      <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
+      <meta name="author" content="JoGorska">
+      <!--Bootstrap css-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!--google fonts links-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
+      <!--fontawsome-->
+      <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
+      <!--stylesheet-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Luxury Cat Hotel</title>
+   </head>
+   <body class="bg-dark text-white font-family-plain">
+      <!--Bootstrap 5 (!) Nav bar here-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+               <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
+               <picture>
+                  <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
+                  <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
+               </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="rooms.html">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="prices.html">Prices</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#booking">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--Main content-->
+      <!--Big picture-->
+      <div class="container text-center">
+         <picture>
+            <source srcset="assets/images/01-booking-anete-lusina-EV0IwJzQjE8-unsplash.jpg" type="image/svg+xml" media="(max-width:600px)">
+            <img class="img-fluid img-thumbnail" src="assets/images/01-booking-anete-lusina-EV0IwJzQjE8-unsplash.jpg" alt="Photo of a castle">
+         </picture>
+      </div>
+      <!--Big heading-->
+      <div class="container">
+         <header>
+            <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
+               <h1 id="booking" class="display-4 fw-normal border-top p-5 font-family-header">Booking Form</h1>
+               <p class="fs-5 text-muted pb-5 border-bottom">It is very important for us to accomodate every need of your cat. Please take your time with filling in the form.</p>
+            </div>
+         </header>
+      </div>
+      <!--The form starts here-->
+      <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+         <!--Fill in proposed Date and room-->
+         <fieldset class="container border-bottom pb-5 mb-5">
             <legend>Choose a date</legend>
-
             <label class="form-label" for="BookIN">Check in date</label>
             <input class="form-control bg-secondary mb-3" id="BookIN" type="date" name="Book in" min="2021-07-01" max="2026-07-01" title="you can book up to 5 years in advance" required>
             <label class="form-label" for="BookOUT">Check out date</label>
             <input class="form-control bg-secondary mb3" id="BookOUT" type="date" name="Book out" min="2021-07-02" max="2026-07-01" title="you can book up to 5 years in advance" required>
-   
-        </fieldset>
-
-        <fieldset class="container border-bottom pb-5 mb-5">
+         </fieldset>
+         <fieldset class="container border-bottom pb-5 mb-5">
             <legend>Room</legend>
-
             <label class="form-label" for="room">Choose room from drop down list</label>
             <select class="form-select bg-secondary mb-3" name="room" id="room">
-                <option value="Kew Gardens">Kew Gardens</option>
-                <option value="Oxford Suite">Oxford Suite</option>
-                <option value="London Suite">London Suite</option>
-                <option value="Verulamium Suite">Verulamium Suite</option>  
-                <option value="Cambridge Botanic Gardens">Cambridge Botanic Gardens</option>
-                <option value="Stonehenge Suite">Stonehenge Suite</option>
-                <option value="Lucretia's Suite">Glasgow Suite</option>
-                <option value="Glasgow Suite">Glasgow Suite</option>
-                <option value="Ware Suite">Ware Suite</option>
+               <option value="Kew Gardens">Kew Gardens</option>
+               <option value="Oxford Suite">Oxford Suite</option>
+               <option value="London Suite">London Suite</option>
+               <option value="Verulamium Suite">Verulamium Suite</option>
+               <option value="Cambridge Botanic Gardens">Cambridge Botanic Gardens</option>
+               <option value="Stonehenge Suite">Stonehenge Suite</option>
+               <option value="Lucretia's Suite">Glasgow Suite</option>
+               <option value="Glasgow Suite">Glasgow Suite</option>
+               <option value="Ware Suite">Ware Suite</option>
             </select>
-
             <div class="form-check">
-            <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-view" name="room-view" checked disabled required title="all rooms have a view onto birdfeeders allowing cat to watch wildlife">
-            <label class="form-check-label" for="room-view">Room with a view</label>
+               <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-view" name="room-view" checked disabled required title="all rooms have a view onto birdfeeders allowing cat to watch wildlife">
+               <label class="form-check-label" for="room-view">Room with a view</label>
             </div>
-            
             <div class="form-check">
-            <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-outdoor" name="room-outdoor">
-            <label class="form-check-label" for="room-outdoor">Access to private secured outdoor space</label>
+               <input class="form-check-input bg-secondary mb-3" type="checkbox" id="room-outdoor" name="room-outdoor">
+               <label class="form-check-label" for="room-outdoor">Access to private secured outdoor space</label>
             </div>
-        </fieldset>
-
-
-        <!--Names of the owner, names of the cats and breed-->
-
-
-
-        <fieldset class="container border-bottom pb-5 mb-5">
-
+         </fieldset>
+         <!--Names of the owner, names of the cats and breed-->
+         <fieldset class="container border-bottom pb-5 mb-5">
             <legend>Your Details</legend>
-
             <label class="form-label" for="name">Name</label>
             <input class="form-control bg-secondary mb-3" type="text" name="name" id="name" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
- 
             <label class="form-label" for="surname">Surname</label>
             <input class="form-control bg-secondary mb-3" type="text" name="surname" id="surname" pattern="[A-Za-z'-]{2,160}" title="This field cannot contain numbers or special characters" required>
-
             <label class="form-label" for="cat1">Your cat's name</label>
             <input class="form-control bg-secondary mb-3" type="text" name="cat1" id="cat1" minlength="2" maxlength="160" required>
-
             <label class="form-label" for="cat2">Second cat (if applicable)</label>
             <input class="form-control bg-secondary mb-3" type="text" name="cat2" id="cat2" title="We can accept up to 2 cats in one accomodation" minlength="2" maxlength="160">
-
-
-
             <label class="form-label" for="breed">Breed of the cat</label>
             <input class="form-control bg-secondary mb-3" type="text" name="breed" id="breed" list="breedlist" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
-
             <datalist id="breedlist">
-                <option>None</option>
-                <option>British Shorthair</option>
-                <option>Persian cat</option>
-                <option>Maine Coon</option>
-                <option>Bengal cat</option>
-                <option>Ragdoll</option>
-                <option>Siamese cat</option>
-                <option>Burmese cat</option>
-                <option>Sphynx cat</option>
-                <option>Russian Blue</option>
-                <option>Abyssinian</option>
-                <option>Birman</option>
-                <option>Dachowiec</option>
-
+               <option>None</option>
+               <option>British Shorthair</option>
+               <option>Persian cat</option>
+               <option>Maine Coon</option>
+               <option>Bengal cat</option>
+               <option>Ragdoll</option>
+               <option>Siamese cat</option>
+               <option>Burmese cat</option>
+               <option>Sphynx cat</option>
+               <option>Russian Blue</option>
+               <option>Abyssinian</option>
+               <option>Birman</option>
+               <option>Dachowiec</option>
             </datalist>
-
             <div class="form-check mb-3">
-                <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented">
-                <label class="form-check-label" for="breeddocumented">Is the breed documented?</label>
+               <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented">
+               <label class="form-check-label" for="breeddocumented">Is the breed documented?</label>
             </div>
- 
-   
-
             <label class="form-label" for="breed2">Breed of the second cat</label>
             <input class="form-control bg-secondary mb-3" type="text" name="breed2" id="breed2" list="breedlist2" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160" required>
-
             <datalist id="breedlist2">
-                <option>None</option>
-                <option>British Shorthair</option>
-                <option>Persian cat</option>
-                <option>Maine Coon</option>
-                <option>Bengal cat</option>
-                <option>Ragdoll</option>
-                <option>Siamese cat</option>
-                <option>Burmese cat</option>
-                <option>Sphynx cat</option>
-                <option>Russian Blue</option>
-                <option>Abyssinian</option>
-                <option>Birman</option>
-                <option>Dachowiec</option>
+               <option>None</option>
+               <option>British Shorthair</option>
+               <option>Persian cat</option>
+               <option>Maine Coon</option>
+               <option>Bengal cat</option>
+               <option>Ragdoll</option>
+               <option>Siamese cat</option>
+               <option>Burmese cat</option>
+               <option>Sphynx cat</option>
+               <option>Russian Blue</option>
+               <option>Abyssinian</option>
+               <option>Birman</option>
+               <option>Dachowiec</option>
             </datalist>
-            
             <div class="form-check mb-3">
-                <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented2">
-                <label class="form-check-label" for="breeddocumented2">Is the breed documented?</label>
+               <input class="form-check-input bg-secondary mb-3" type="checkbox" name="documented breed" id="breeddocumented2">
+               <label class="form-check-label" for="breeddocumented2">Is the breed documented?</label>
             </div>
-        </fieldset>
-
-        <!--Address field set-->
-
-        <fieldset class="container border-bottom pb-5 mb-5">
+         </fieldset>
+         <!--Address field set-->
+         <fieldset class="container border-bottom pb-5 mb-5">
             <legend>Address and contact details</legend>
-
             <label class="form-label" for="email">Email address</label>
             <input class="form-control bg-secondary mb-3" type="email" id="email" name="email" title="Please enter a valid email address for example my@personal.uk" required>
-
             <label class="form-label" for="email2">Confirm Email address</label>
             <input class="form-control bg-secondary mb-3" type="email" id="email2" name="email2" title="Please enter a valid email address for example my@personal.uk" required>
-
-
-
             <label class="form-label" for="mobileNo">Mobile Number</label>
             <input class="form-control bg-secondary mb-3" type="tel" id="mobileNo" name="mobileNo" pattern="[\d](10,11}" title="Valid UK mobile number consists (11 digits)" required>
-
             <label class="form-label" for="landlineNo">Landline</label>
             <input class="form-control bg-secondary mb-3" type="tel" id="landlineNo" name="landlineNo" pattern="[\d]{10,11}" title="Please put valid UK landline number (11 digits)">
-
             <label class="form-label" for="house-name-number">House Number / Name</label>
             <input class="form-control bg-secondary mb-3" type="text" id="house-name-number" name="house-name-number" title="House Number or Name" required>
-
-
             <label class="form-label" for="street">Street</label>
             <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" title="Street">
-
             <!--
-                pattern for postcode from stackoverflow
-            https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
-            -->
+               pattern for postcode from stackoverflow
+               https://stackoverflow.com/questions/164979/regex-for-matching-uk-postcodes
+               -->
             <label class="form-label" for="postcode">Postcode</label>
             <input class="form-control bg-secondary mb-3" type="text" id="postcode" name="postcode" pattern="^([A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}|GIR ?0A{2})$" title="" required>
-
             <label class="form-label" for="town">Town</label>
             <input class="form-control bg-secondary mb-3" type="text" id="town" name="town" pattern="" title="" required>
-
-
             <!--
-                select conuty drop down form 
-            https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
-
-            need to have the field empty - why it is pre selecting Bedfordshire???
-            there is no atribude selected so why it is pre selected? placeholder doesn't work.
-            -->
-
+               select conuty drop down form 
+               https://gist.github.com/olivertappin/4dcbf64e06aae132c12a8b9d302fae12
+               
+               need to have the field empty - why it is pre selecting Bedfordshire???
+               there is no atribude selected so why it is pre selected? placeholder doesn't work.
+               -->
             <label class="form-label" for="county">County</label>
             <select class="form-select bg-secondary mb-3" name="county" id="county">
-                <optgroup label="England">
-                    <option>Bedfordshire</option>
-                    <option>Berkshire</option>
-                    <option>Bristol</option>
-                    <option>Buckinghamshire</option>
-                    <option>Cambridgeshire</option>
-                    <option>Cheshire</option>
-                    <option>City of London</option>
-                    <option>Cornwall</option>
-                    <option>Cumbria</option>
-                    <option>Derbyshire</option>
-                    <option>Devon</option>
-                    <option>Dorset</option>
-                    <option>Durham</option>
-                    <option>East Riding of Yorkshire</option>
-                    <option>East Sussex</option>
-                    <option>Essex</option>
-                    <option>Gloucestershire</option>
-                    <option>Greater London</option>
-                    <option>Greater Manchester</option>
-                    <option>Hampshire</option>
-                    <option>Herefordshire</option>
-                    <option>Hertfordshire</option>
-                    <option>Isle of Wight</option>
-                    <option>Kent</option>
-                    <option>Lancashire</option>
-                    <option>Leicestershire</option>
-                    <option>Lincolnshire</option>
-                    <option>Merseyside</option>
-                    <option>Norfolk</option>
-                    <option>North Yorkshire</option>
-                    <option>Northamptonshire</option>
-                    <option>Northumberland</option>
-                    <option>Nottinghamshire</option>
-                    <option>Oxfordshire</option>
-                    <option>Rutland</option>
-                    <option>Shropshire</option>
-                    <option>Somerset</option>
-                    <option>South Yorkshire</option>
-                    <option>Staffordshire</option>
-                    <option>Suffolk</option>
-                    <option>Surrey</option>
-                    <option>Tyne and Wear</option>
-                    <option>Warwickshire</option>
-                    <option>West Midlands</option>
-                    <option>West Sussex</option>
-                    <option>West Yorkshire</option>
-                    <option>Wiltshire</option>
-                    <option>Worcestershire</option>
-                </optgroup>
-                <optgroup label="Wales">
-                    <option>Anglesey</option>
-                    <option>Brecknockshire</option>
-                    <option>Caernarfonshire</option>
-                    <option>Carmarthenshire</option>
-                    <option>Cardiganshire</option>
-                    <option>Denbighshire</option>
-                    <option>Flintshire</option>
-                    <option>Glamorgan</option>
-                    <option>Merioneth</option>
-                    <option>Monmouthshire</option>
-                    <option>Montgomeryshire</option>
-                    <option>Pembrokeshire</option>
-                    <option>Radnorshire</option>
-                </optgroup>
-                <optgroup label="Scotland">
-                    <option>Aberdeenshire</option>
-                    <option>Angus</option>
-                    <option>Argyllshire</option>
-                    <option>Ayrshire</option>
-                    <option>Banffshire</option>
-                    <option>Berwickshire</option>
-                    <option>Buteshire</option>
-                    <option>Cromartyshire</option>
-                    <option>Caithness</option>
-                    <option>Clackmannanshire</option>
-                    <option>Dumfriesshire</option>
-                    <option>Dunbartonshire</option>
-                    <option>East Lothian</option>
-                    <option>Fife</option>
-                    <option>Inverness-shire</option>
-                    <option>Kincardineshire</option>
-                    <option>Kinross</option>
-                    <option>Kirkcudbrightshire</option>
-                    <option>Lanarkshire</option>
-                    <option>Midlothian</option>
-                    <option>Morayshire</option>
-                    <option>Nairnshire</option>
-                    <option>Orkney</option>
-                    <option>Peeblesshire</option>
-                    <option>Perthshire</option>
-                    <option>Renfrewshire</option>
-                    <option>Ross-shire</option>
-                    <option>Roxburghshire</option>
-                    <option>Selkirkshire</option>
-                    <option>Shetland</option>
-                    <option>Stirlingshire</option>
-                    <option>Sutherland</option>
-                    <option>West Lothian</option>
-                    <option>Wigtownshire</option>
-                </optgroup>
-                <optgroup label="Northern Ireland">
-                    <option>Antrim</option>
-                    <option>Armagh</option>
-                    <option>Down</option>
-                    <option>Fermanagh</option>
-                    <option>Londonderry</option>
-                    <option>Tyrone</option>
-                </optgroup>
-              </select>
-
-        </fieldset>
-
-
-        <!--Healthcare, Wellbeing and Diet-->
-
-<fieldset class="container border-bottom pb-5 mb-5">
-    <legend>Healthcare, wellbeing and diet</legend>
-    
-    <!--diet-->
-    <div class="form-check mb-3">
-      <input class="form-check-input bg-secondary mb-3" id="diet-yes" type="checkbox" name="diet-required" value="yes">
-      <label class="form-check-label" for="diet-yes">Please click to check the box if your cat has special dietary requirement and describe them in the field below</label>
-    </div>
-
-    <label class="form-label sr-only" for="diet-describe">Please describe diet in the field below</label>
-    <input class="form-control bg-secondary mb-3" type="text" id="diet-describe" name="diet-describe">
-
-    <!--health conditions-->
-    <div class="form-check mb-3">
-      <input class="form-check-input bg-secondary mb-3" id="health-conditions-yes" type="checkbox" name="special-health-conditions" value="yes">
-      <label class="form-check-label" for="health-conditions-yes">Please click to check the box if your cat has special health conditions and describe them in the field below</label>
-    </div>
-
-    <label class="form-label sr-only" for="health-conditions-describe">Please describe health conditions in the field below</label>
-    <input class="form-control bg-secondary mb-3" type="text" id="health-conditions-describe" name="diet-describe">
-
-
-    <!--prescribed medication-->
-
-
-    <label class="form-label" for="prescribed-medication">Prescribed Medication</label>
-    <input class="form-control bg-secondary mb-3" type="text" id="prescribed-medication" name="prescribed-medication">
-
-      <!--other issues-->
-  
-      <label class="form-label" for="other-issues">Other issues that we need to be aware of</label>
-      <input class="form-control bg-secondary mb-3" type="text" id="other-issues" name="other-issues">
-
-</fieldset>
-
-    <!--choose your package-->
-       
-
-<fieldset class="container border-bottom pb-5 mb-5">
-    <legend>Choose your package</legend>
-    
-  <div class="row">
-    <div class="col-6 form-check mb-3 mt-3">
-      <input class="form-check-input bg-secondary mb-3" id="basic-yes" type="radio" name="holiday-package" value="basic">
-      <label class="form-check-label ps-3" for="basic-yes">Basic Package</label>
-    </div>
-
-    <div class="col-6 form-check mb-3 mt-3">
-      <input class="form-check-input bg-secondary mb-3" id="all-inc-yes" type="radio" name="holiday-package" value="all-inclusive" checked>
-      <label class="form-check-label ps-3" for="all-inc-yes">All Inclusive</label>
-    </div>
-  </div>
-
-</fieldset>
-
-<!--Special Services
-feeding time am
-feeding time pm
-welcome pack
-cat grooming service
-additional one to one time per week
--->
-
-<fieldset class="container border-bottom pb-5 mb-5">
-    <legend>Special Services</legend>
-
-    <!--feeding time-->
-    
-    <div class="row">
-      <div class="col-6">
-        <label class="form-label" for="feeding-am">Feeding time in the morning</label>
-        <select class="form-select bg-secondary mb-3" name="feeding-am" id="feeding-am">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="10">11</option>
-          <option value="10">12</option>
-        </select>
-      </div>
-      <div class="col-6">
-        <label class="form-label" for="feeding-pm">Feeding time in the afternoon or evening</label>
-        <select class="form-select bg-secondary mb-3" name="feeding-pm" id="feeding-pm">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="10">11</option>
-          <option value="10">12</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="row pt-5">
-      <div class="col-6">
-        <div class="form-check mb-3">
-          <input class="form-check-input bg-secondary mb-3" id="grooming" type="checkbox" name="grooming" value="yes">
-          <label class="form-check-label" for="grooming">Cat grooming service (this incurs additional payment of 30£ if you are reserving basic package)</label>
-        </div>
-      </div>
-
-      <div class="col-6">
-        <div class="form-check mb-3">
-          <input class="form-check-input bg-secondary mb-3" id="welcome-pack" type="checkbox" name="welcome-pack" value="yes">
-          <label class="form-check-label" for="welcome-pack">Welcome Pack "The Journey" (this incurs additional payment of 30£ if you are reserving basic package)</label>
-        </div>
-      </div>
-    </div>
-
-  
-
-  <label class="form-label" for="1to1">Additional One to One time per week (20£ per hour)</label>
-  <input class="form-control bg-secondary mb-3" type="number" id="1to1" name="1to1" min="1" max="99" title="input numbers only 1-99">
-          
-
-</fieldset>
-
-
-
-<!--button to post-->
-
-<fieldset class="container border-bottom pb-5 mb-5">
-    <legend>Submit</legend>
-    <div class="form-check mb-3">
-        <input class="form-check-input bg-secondary mb-3" id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
-        <label class="form-check-label" for="gdpr">I agree to have my personal details processed in accordance with GDPR regulations</label>
-    </div>
-
-    <div class="container-flex text-center p-5">
-        <div class="row">
-          <div class="col">      
-            <button type="submit" class="btn btn-outline-secondary btn-md">Submit</button>
-          </div>
-          <div class="col">
-            <button type="reset" class="btn btn-outline-danger btn-md">Reset</button>
-          </div>  
-        </div>
-      </div>   
-</fieldset>
-
-
-</form>
-
-
-    
-<!--sticky footer-->
-
-
-<footer class="my-footer mt-auto py-3 bg-dark">
-  <div class="container">
-    <span class="text-muted">Copyright Joanna Gorska 2021</span>
-  </div>
-</footer>
-
-<!--Bootstrap JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</body>
+               <optgroup label="England">
+                  <option>Bedfordshire</option>
+                  <option>Berkshire</option>
+                  <option>Bristol</option>
+                  <option>Buckinghamshire</option>
+                  <option>Cambridgeshire</option>
+                  <option>Cheshire</option>
+                  <option>City of London</option>
+                  <option>Cornwall</option>
+                  <option>Cumbria</option>
+                  <option>Derbyshire</option>
+                  <option>Devon</option>
+                  <option>Dorset</option>
+                  <option>Durham</option>
+                  <option>East Riding of Yorkshire</option>
+                  <option>East Sussex</option>
+                  <option>Essex</option>
+                  <option>Gloucestershire</option>
+                  <option>Greater London</option>
+                  <option>Greater Manchester</option>
+                  <option>Hampshire</option>
+                  <option>Herefordshire</option>
+                  <option>Hertfordshire</option>
+                  <option>Isle of Wight</option>
+                  <option>Kent</option>
+                  <option>Lancashire</option>
+                  <option>Leicestershire</option>
+                  <option>Lincolnshire</option>
+                  <option>Merseyside</option>
+                  <option>Norfolk</option>
+                  <option>North Yorkshire</option>
+                  <option>Northamptonshire</option>
+                  <option>Northumberland</option>
+                  <option>Nottinghamshire</option>
+                  <option>Oxfordshire</option>
+                  <option>Rutland</option>
+                  <option>Shropshire</option>
+                  <option>Somerset</option>
+                  <option>South Yorkshire</option>
+                  <option>Staffordshire</option>
+                  <option>Suffolk</option>
+                  <option>Surrey</option>
+                  <option>Tyne and Wear</option>
+                  <option>Warwickshire</option>
+                  <option>West Midlands</option>
+                  <option>West Sussex</option>
+                  <option>West Yorkshire</option>
+                  <option>Wiltshire</option>
+                  <option>Worcestershire</option>
+               </optgroup>
+               <optgroup label="Wales">
+                  <option>Anglesey</option>
+                  <option>Brecknockshire</option>
+                  <option>Caernarfonshire</option>
+                  <option>Carmarthenshire</option>
+                  <option>Cardiganshire</option>
+                  <option>Denbighshire</option>
+                  <option>Flintshire</option>
+                  <option>Glamorgan</option>
+                  <option>Merioneth</option>
+                  <option>Monmouthshire</option>
+                  <option>Montgomeryshire</option>
+                  <option>Pembrokeshire</option>
+                  <option>Radnorshire</option>
+               </optgroup>
+               <optgroup label="Scotland">
+                  <option>Aberdeenshire</option>
+                  <option>Angus</option>
+                  <option>Argyllshire</option>
+                  <option>Ayrshire</option>
+                  <option>Banffshire</option>
+                  <option>Berwickshire</option>
+                  <option>Buteshire</option>
+                  <option>Cromartyshire</option>
+                  <option>Caithness</option>
+                  <option>Clackmannanshire</option>
+                  <option>Dumfriesshire</option>
+                  <option>Dunbartonshire</option>
+                  <option>East Lothian</option>
+                  <option>Fife</option>
+                  <option>Inverness-shire</option>
+                  <option>Kincardineshire</option>
+                  <option>Kinross</option>
+                  <option>Kirkcudbrightshire</option>
+                  <option>Lanarkshire</option>
+                  <option>Midlothian</option>
+                  <option>Morayshire</option>
+                  <option>Nairnshire</option>
+                  <option>Orkney</option>
+                  <option>Peeblesshire</option>
+                  <option>Perthshire</option>
+                  <option>Renfrewshire</option>
+                  <option>Ross-shire</option>
+                  <option>Roxburghshire</option>
+                  <option>Selkirkshire</option>
+                  <option>Shetland</option>
+                  <option>Stirlingshire</option>
+                  <option>Sutherland</option>
+                  <option>West Lothian</option>
+                  <option>Wigtownshire</option>
+               </optgroup>
+               <optgroup label="Northern Ireland">
+                  <option>Antrim</option>
+                  <option>Armagh</option>
+                  <option>Down</option>
+                  <option>Fermanagh</option>
+                  <option>Londonderry</option>
+                  <option>Tyrone</option>
+               </optgroup>
+            </select>
+         </fieldset>
+         <!--Healthcare, Wellbeing and Diet-->
+         <fieldset class="container border-bottom pb-5 mb-5">
+            <legend>Healthcare, wellbeing and diet</legend>
+            <!--diet-->
+            <div class="form-check mb-3">
+               <input class="form-check-input bg-secondary mb-3" id="diet-yes" type="checkbox" name="diet-required" value="yes">
+               <label class="form-check-label" for="diet-yes">Please click to check the box if your cat has special dietary requirement and describe them in the field below</label>
+            </div>
+            <label class="form-label sr-only" for="diet-describe">Please describe diet in the field below</label>
+            <input class="form-control bg-secondary mb-3" type="text" id="diet-describe" name="diet-describe">
+            <!--health conditions-->
+            <div class="form-check mb-3">
+               <input class="form-check-input bg-secondary mb-3" id="health-conditions-yes" type="checkbox" name="special-health-conditions" value="yes">
+               <label class="form-check-label" for="health-conditions-yes">Please click to check the box if your cat has special health conditions and describe them in the field below</label>
+            </div>
+            <label class="form-label sr-only" for="health-conditions-describe">Please describe health conditions in the field below</label>
+            <input class="form-control bg-secondary mb-3" type="text" id="health-conditions-describe" name="diet-describe">
+            <!--prescribed medication-->
+            <label class="form-label" for="prescribed-medication">Prescribed Medication</label>
+            <input class="form-control bg-secondary mb-3" type="text" id="prescribed-medication" name="prescribed-medication">
+            <!--other issues-->
+            <label class="form-label" for="other-issues">Other issues that we need to be aware of</label>
+            <input class="form-control bg-secondary mb-3" type="text" id="other-issues" name="other-issues">
+         </fieldset>
+         <!--choose your package-->
+         <fieldset class="container border-bottom pb-5 mb-5">
+            <legend>Choose your package</legend>
+            <div class="row">
+               <div class="col-6 form-check mb-3 mt-3">
+                  <input class="form-check-input bg-secondary mb-3" id="basic-yes" type="radio" name="holiday-package" value="basic">
+                  <label class="form-check-label ps-3" for="basic-yes">Basic Package</label>
+               </div>
+               <div class="col-6 form-check mb-3 mt-3">
+                  <input class="form-check-input bg-secondary mb-3" id="all-inc-yes" type="radio" name="holiday-package" value="all-inclusive" checked>
+                  <label class="form-check-label ps-3" for="all-inc-yes">All Inclusive</label>
+               </div>
+            </div>
+         </fieldset>
+         <!--Special Services
+            feeding time am
+            feeding time pm
+            welcome pack
+            cat grooming service
+            additional one to one time per week
+            -->
+         <fieldset class="container border-bottom pb-5 mb-5">
+            <legend>Special Services</legend>
+            <!--feeding time-->
+            <div class="row">
+               <div class="col-6">
+                  <label class="form-label" for="feeding-am">Feeding time in the morning</label>
+                  <select class="form-select bg-secondary mb-3" name="feeding-am" id="feeding-am">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="10">11</option>
+                     <option value="10">12</option>
+                  </select>
+               </div>
+               <div class="col-6">
+                  <label class="form-label" for="feeding-pm">Feeding time in the afternoon or evening</label>
+                  <select class="form-select bg-secondary mb-3" name="feeding-pm" id="feeding-pm">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="10">11</option>
+                     <option value="10">12</option>
+                  </select>
+               </div>
+            </div>
+            <div class="row pt-5">
+               <div class="col-6">
+                  <div class="form-check mb-3">
+                     <input class="form-check-input bg-secondary mb-3" id="grooming" type="checkbox" name="grooming" value="yes">
+                     <label class="form-check-label" for="grooming">Cat grooming service (this incurs additional payment of 30£ if you are reserving basic package)</label>
+                  </div>
+               </div>
+               <div class="col-6">
+                  <div class="form-check mb-3">
+                     <input class="form-check-input bg-secondary mb-3" id="welcome-pack" type="checkbox" name="welcome-pack" value="yes">
+                     <label class="form-check-label" for="welcome-pack">Welcome Pack "The Journey" (this incurs additional payment of 30£ if you are reserving basic package)</label>
+                  </div>
+               </div>
+            </div>
+            <label class="form-label" for="1to1">Additional One to One time per week (20£ per hour)</label>
+            <input class="form-control bg-secondary mb-3" type="number" id="1to1" name="1to1" min="1" max="99" title="input numbers only 1-99">
+         </fieldset>
+         <!--button to post-->
+         <fieldset class="container border-bottom pb-5 mb-5">
+            <legend>Submit</legend>
+            <div class="form-check mb-3">
+               <input class="form-check-input bg-secondary mb-3" id="gdpr" type="checkbox" name="accept data procesing" value="yes" checked>
+               <label class="form-check-label" for="gdpr">I agree to have my personal details processed in accordance with GDPR regulations</label>
+            </div>
+            <div class="container-flex text-center p-5">
+               <div class="row">
+                  <div class="col">      
+                     <button type="submit" class="btn btn-outline-secondary btn-md">Submit</button>
+                  </div>
+                  <div class="col">
+                     <button type="reset" class="btn btn-outline-danger btn-md">Reset</button>
+                  </div>
+               </div>
+            </div>
+         </fieldset>
+      </form>
+      <!--sticky footer-->
+      <footer class="my-footer mt-auto py-3 bg-dark">
+         <div class="container">
+            <span class="text-muted">Copyright Joanna Gorska 2021</span>
+         </div>
+      </footer>
+      <!--Bootstrap JavaScript-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </body>
 </html>

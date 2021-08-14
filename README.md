@@ -205,6 +205,7 @@ The grid used in rooms and services allows the user to view the images in 1, 2 o
 
 - Readme file followed the pattern in the below mentioned repositories and video found [here](https://us02web.zoom.us/rec/play/zZzrdRcJ1Gz9isoaRTUcHNhB1VEqzkhcI4kkOUXEbTGTShtMaNQEpxYE7dW214K5X2OWveSRPLL-oWtA.5EMQT2YvoO2ZLIox?autoplay=true) and examples from [Daisy McG](https://github.com/Daisy-McG/MilestoneProject-1#frequent-visitor-goals), [LigaMoon](https://github.com/LigaMoon/Boredom-guide#technologies), [jumboduck](https://github.com/jumboduck/Polygonal-Brewing-Co/blob/master/README.md).
 
+- beautify my html - link found [here](https://www.freeformatter.com/html-formatter.html)
 
 - Dave Horrocks & Brian Smyth - for general help on how to use bootstrap's navbar's images, responsivness and styling, shared during Hackaton and applied in this project
 
