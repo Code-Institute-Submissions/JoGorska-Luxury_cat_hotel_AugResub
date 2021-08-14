@@ -241,7 +241,7 @@
 
 
             <label class="form-label" for="street">Street</label>
-            <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" title="Street" requried>
+            <input class="form-control bg-secondary mb-3" type="text" id="street" name="street" title="Street">
 
             <!--
                 pattern for postcode from stackoverflow
@@ -263,7 +263,7 @@
             -->
 
             <label class="form-label" for="county">County</label>
-            <select class="form-select bg-secondary mb-3" name="county" id="county" required>
+            <select class="form-select bg-secondary mb-3" name="county" id="county">
                 <optgroup label="England">
                     <option>Bedfordshire</option>
                     <option>Berkshire</option>
@@ -390,7 +390,7 @@
     </div>
 
     <label class="form-label sr-only" for="diet-describe">Please describe diet in the field below</label>
-    <input class="form-control bg-secondary mb-3" type="text" id="died-describe" name="diet-describe" min="2" max="160">
+    <input class="form-control bg-secondary mb-3" type="text" id="diet-describe" name="diet-describe">
 
     <!--health conditions-->
     <div class="form-check mb-3">
@@ -399,19 +399,19 @@
     </div>
 
     <label class="form-label sr-only" for="health-conditions-describe">Please describe health conditions in the field below</label>
-    <input class="form-control bg-secondary mb-3" type="text" id="health-conditions-describe" name="diet-describe" min="2" max="160">
+    <input class="form-control bg-secondary mb-3" type="text" id="health-conditions-describe" name="diet-describe">
 
 
     <!--prescribed medication-->
 
 
     <label class="form-label" for="prescribed-medication">Prescribed Medication</label>
-    <input class="form-control bg-secondary mb-3" type="text" id="prescribed-medication" name="prescribed-medication" min="2" max="160">
+    <input class="form-control bg-secondary mb-3" type="text" id="prescribed-medication" name="prescribed-medication">
 
       <!--other issues-->
   
       <label class="form-label" for="other-issues">Other issues that we need to be aware of</label>
-      <input class="form-control bg-secondary mb-3" type="text" id="other-issues" name="other-issues" min="2" max="160">
+      <input class="form-control bg-secondary mb-3" type="text" id="other-issues" name="other-issues">
 
 </fieldset>
 
@@ -522,11 +522,11 @@ additional one to one time per week
 
     <div class="container-flex text-center p-5">
         <div class="row">
-          <div class="col-6">      
-            <button type="submit" class="btn btn-outline-secondary btn-sm my-input-50">Submit</button>
+          <div class="col">      
+            <button type="submit" class="btn btn-outline-secondary btn-md">Submit</button>
           </div>
-          <div class="col-6">
-            <button type="reset" class="btn btn-outline-danger btn-sm my-input-50">Reset</button>
+          <div class="col">
+            <button type="reset" class="btn btn-outline-danger btn-md">Reset</button>
           </div>  
         </div>
       </div>   
