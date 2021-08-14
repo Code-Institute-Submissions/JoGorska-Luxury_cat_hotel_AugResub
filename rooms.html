@@ -36,7 +36,13 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded"></a>
+        <a class="navbar-brand" href="index.html">
+      <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
+      <picture>
+        <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
+        <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
+      </picture>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

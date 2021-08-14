@@ -7,6 +7,10 @@
     <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
     <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
     <meta name="author" content="JoGorska">
+
+    <!--fav icon link-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
         
   <!--Bootstrap css-->
 
@@ -37,7 +41,15 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#about"><img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded"></a>
+    <a class="navbar-brand" href="#about">
+
+      <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
+      <picture>
+        <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
+        <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
+      </picture>
+
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
