@@ -1,299 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
-    <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
-    <meta name="author" content="JoGorska">
-
-    <!--Bootstrap css-->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <!--google fonts links-->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
-
-    <!--fontawsome-->
-
-    <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
-        
-    <!--stylesheet-->
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Luxury Cat Hotel</title>
-</head>
-
-
-<body class="bg-dark text-light font-family-plain">
-
-
-<!--Bootstrap 5 (!) Nav bar here-->
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
-      <picture>
-        <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
-        <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
-      </picture>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="rooms.html">Rooms</a>
-        </li>
-      <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#prices">Prices</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="booking.html">Booking</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-
-<!--Main content-->
-
-<!--Big front picture-->
-
-
-<div class="container text-center">
- 
-  <picture>
-    <source srcset="assets/images/01-Prices-jez-timms-iotaVuS6laQ-unsplash.jpg" type="image/svg+xml" media="(max-width:600px)">
-    <img class="img-fluid img-thumbnail" src="assets/images/01-Prices-jez-timms-iotaVuS6laQ-unsplash.jpg" alt="Photo of a castle">
-  </picture>
-
-</div>
-
-
-<!---Pricing - from bootstrap examples-->
-
-
-
-    
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-    <symbol id="check" viewBox="0 0 16 16">
-      <title>Check</title>
-      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-    </symbol>
-</svg>
-  
-<div class="container py-3 text-light bg-dark mb-5 pb-5">
-
-  <!--Big header of the page-->
-
-  <div class="container">
-    <header>
-  
-        <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
-          <h1 id="prices" class="display-4 fw-normal border-top p-5 font-family-header">Prices</h1>
-          <p class="fs-5 text-muted pb-5 border-bottom">The price you pay for your cat to have better holiday than you...</p>
-        </div>
-    
-      </header>
-  </div>
-  
-  
-    <main class="mb-5">
-      <div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
-        
-        <!--Basic Package Card-->
-
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm bg-secondary text-white">
-              <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Basic Package</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">£500<small class="fw-light">/week</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>NO health conditions</li>
-                  <li>NO dietary requirements</li>
-                  <li>NO access to outdoor space</li>
-                  <li>1 hour One to One time</li>
-                  <li>Text daily updates</li>
-                  <li>Welcome pack 30£</li>
-                  <li>Cat grooming service 30£</li>
-                </ul>
-                <a class="btn w-100 btn btn-lg btn-outline-dark" href="booking.html" aria-label="go to page booking (open in same window)">Book Now</a>
-              </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="luxury cattery with home-like enviroment, accomodating cats with all health conditions and dietary requirements">
+      <meta name="keywords" content="cattery, cats, cat, boarding, hotel, kennels, breed">
+      <meta name="author" content="JoGorska">
+      <!--Bootstrap css-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!--google fonts links-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Marck+Script&family=Roboto&family=Rouge+Script&display=swap" rel="stylesheet">
+      <!--fontawsome-->
+      <script src="https://kit.fontawesome.com/ec7ce2da63.js" crossorigin="anonymous"></script>
+      <!--stylesheet-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Luxury Cat Hotel</title>
+   </head>
+   <body class="bg-dark text-light font-family-plain">
+      <!--Bootstrap 5 (!) Nav bar here-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-family-header">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+               <!--picture replaces the logo image with a smaller one on the smaller mobiles, which helps to keep the hamburger menu to the right of the image-->
+               <picture>
+                  <source srcset="assets/images/0-logo-small.png" type="image/svg+xml" media="(max-width:600px)">
+                  <img src="assets/images/0-long-logo-white-big.png" alt="icon of a castle and sign Cath's Cats' Castle Luxury cats hotel" class="img-fluid rounded">
+               </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="rooms.html">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#prices">Prices</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="booking.html">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+               </ul>
             </div>
-        </div>
-
-
-        <!--All Inclusive Card-->
-
-        <div class="col">
-
-          <div class="card mb-4 rounded-3 shadow-sm bg-secondary text-white">
-            
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal text-white">All Inclusive</h4>
-            </div>
-
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">£1000<small class="fw-light">/week</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                
-                <li>all health conditions</li>
-                <li>any dietary requirements</li>
-                <li>access to outdoor space</li>
-                <li>7 hours One to One time</li>
-                <li>Video daily updates</li>
-                <li>Welcome pack</li>
-                <li>Cat grooming service</li>
-
-              </ul>
-              <a class="btn w-100 btn btn-lg btn-outline-dark" href="booking.html" aria-label="go to page booking (open in same window)">Book Now</a>
-            </div>
-          </div>
-        </div>
-      
+         </div>
+      </nav>
+      <!--Main content-->
+      <!--Big front picture-->
+      <div class="container text-center">
+         <picture>
+            <source srcset="assets/images/01-Prices-jez-timms-iotaVuS6laQ-unsplash.jpg" type="image/svg+xml" media="(max-width:600px)">
+            <img class="img-fluid img-thumbnail" src="assets/images/01-Prices-jez-timms-iotaVuS6laQ-unsplash.jpg" alt="Photo of a castle">
+         </picture>
       </div>
-
-  
-      <h2 class="display-6 text-center m-5 p-5 font-family-header">Compare plans</h2>
-  
-      <div class="table-responsive mb-5">
-        <table class="table text-center text-light bg-secondary">
-          <thead>
-            <!--Table row - headers-->
-            <tr>
-              <th style="width: 50%;">What is included:</th>
-              <th style="width: 25%;">Basic Package</th>
-              <th style="width: 25%;">All Inclusive</th>
-              
-            </tr>
-          </thead>
-
-          <!--Table body-->
-
-          <tbody>
-            <tr>
-              <th scope="row" class="text-start ps-5">All health conditions</th>
-              <td></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Special dietary requirements</th>
-              <td></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Home like environment</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Bird feeders outside the window</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Access to private secured outdoor space</th>
-              <td></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">High level site security</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Access to live cameras any times</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Vet and veterinary nurse on call 24/7</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Pheromones released in each room</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Cat grooming service</th>
-              <td>30£</td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Automatic litter box</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">You set the feeding time</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Welcome pack</th>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">One to one time per week</th>
-              <td>1h</td>
-              <td>7h</td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Extra one to one time paid per hour</th>
-              <td>20£</td>
-              <td>20£</td>
-            </tr>
-            <tr>
-              <th scope="row" class="text-start ps-5">Daily updates about wellbeing</th>
-              <td>text</td>
-              <td>video</td>
-            </tr>
-          </tbody>
-  
-        </table>
+      <!---Pricing - from bootstrap examples-->
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+         <symbol id="check" viewBox="0 0 16 16">
+            <title>Check</title>
+            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+         </symbol>
+      </svg>
+      <div class="container py-3 text-light bg-dark mb-5 pb-5">
+         <!--Big header of the page-->
+         <div class="container">
+            <header>
+               <div class="pricing-header p-5 pb-md-4 mx-auto text-center">
+                  <h1 id="prices" class="display-4 fw-normal border-top p-5 font-family-header">Prices</h1>
+                  <p class="fs-5 text-muted pb-5 border-bottom">The price you pay for your cat to have better holiday than you...</p>
+               </div>
+            </header>
+         </div>
+         <main class="mb-5">
+            <div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
+               <!--Basic Package Card-->
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm bg-secondary text-white">
+                     <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Basic Package</h4>
+                     </div>
+                     <div class="card-body">
+                        <h1 class="card-title pricing-card-title">£500<small class="fw-light">/week</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                           <li>NO health conditions</li>
+                           <li>NO dietary requirements</li>
+                           <li>NO access to outdoor space</li>
+                           <li>1 hour One to One time</li>
+                           <li>Text daily updates</li>
+                           <li>Welcome pack 30£</li>
+                           <li>Cat grooming service 30£</li>
+                        </ul>
+                        <a class="btn w-100 btn btn-lg btn-outline-dark" href="booking.html" aria-label="go to page booking (open in same window)">Book Now</a>
+                     </div>
+                  </div>
+               </div>
+               <!--All Inclusive Card-->
+               <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm bg-secondary text-white">
+                     <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal text-white">All Inclusive</h4>
+                     </div>
+                     <div class="card-body">
+                        <h1 class="card-title pricing-card-title">£1000<small class="fw-light">/week</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                           <li>all health conditions</li>
+                           <li>any dietary requirements</li>
+                           <li>access to outdoor space</li>
+                           <li>7 hours One to One time</li>
+                           <li>Video daily updates</li>
+                           <li>Welcome pack</li>
+                           <li>Cat grooming service</li>
+                        </ul>
+                        <a class="btn w-100 btn btn-lg btn-outline-dark" href="booking.html" aria-label="go to page booking (open in same window)">Book Now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <h2 class="display-6 text-center m-5 p-5 font-family-header">Compare plans</h2>
+            <div class="table-responsive mb-5">
+               <table class="table text-center text-light bg-secondary">
+                  <thead>
+                     <!--Table row - headers-->
+                     <tr>
+                        <th style="width: 50%;">What is included:</th>
+                        <th style="width: 25%;">Basic Package</th>
+                        <th style="width: 25%;">All Inclusive</th>
+                     </tr>
+                  </thead>
+                  <!--Table body-->
+                  <tbody>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">All health conditions</th>
+                        <td></td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Special dietary requirements</th>
+                        <td></td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Home like environment</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Bird feeders outside the window</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Access to private secured outdoor space</th>
+                        <td></td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">High level site security</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Access to live cameras any times</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Vet and veterinary nurse on call 24/7</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Pheromones released in each room</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Cat grooming service</th>
+                        <td>30£</td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Automatic litter box</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">You set the feeding time</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Welcome pack</th>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                        <td>
+                           <svg class="bi" width="24" height="24">
+                              <use xlink:href="#check"/>
+                           </svg>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">One to one time per week</th>
+                        <td>1h</td>
+                        <td>7h</td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Extra one to one time paid per hour</th>
+                        <td>20£</td>
+                        <td>20£</td>
+                     </tr>
+                     <tr>
+                        <th scope="row" class="text-start ps-5">Daily updates about wellbeing</th>
+                        <td>text</td>
+                        <td>video</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </main>
       </div>
-    </main>
-</div>
-
-
-
-
-
-<!--sticky footer-->
-
-
-<footer class="my-footer mt-auto py-3 bg-dark">
-  <div class="container">
-    <span class="text-muted">Copyright Joanna Gorska 2021</span>
-  </div>
-</footer>
-
-<!--Bootstrap JavaScript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</body>
+      <!--sticky footer-->
+      <footer class="my-footer mt-auto py-3 bg-dark">
+         <div class="container">
+            <span class="text-muted">Copyright Joanna Gorska 2021</span>
+         </div>
+      </footer>
+      <!--Bootstrap JavaScript-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </body>
 </html>
